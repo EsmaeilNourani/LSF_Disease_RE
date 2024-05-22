@@ -40,7 +40,7 @@ random_seed_index="$1"
 module purge
 module load pytorch/1.12
 # update accordingly, give a folder on your machine
-export TRANSFORMERS_CACHE="/transformers_cache/"
+export TRANSFORMERS_CACHE="transformers_cache/"
 export TOKENIZERS_PARALLELISM="false"
 
 # run

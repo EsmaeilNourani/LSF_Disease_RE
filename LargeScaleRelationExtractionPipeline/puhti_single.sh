@@ -36,7 +36,7 @@ mkdir "outputs/output_${folder_index}"
 module purge
 module load pytorch
 # UPDATE: update accordingly, give a folder on your machine
-export TRANSFORMERS_CACHE="/transformers_cache/"
+export TRANSFORMERS_CACHE="transformers_cache/"
 export TOKENIZERS_PARALLELISM="false"
 
 # run the system on the cluster. Receives one folder as input, processess all .tar.gz files inside that folder ...
