@@ -113,9 +113,10 @@ You need to install spacy, scispacy, and the `en_core_sci_sm` model, a full spaC
 
 ```
 module purge
-module load pytorch
+module load pytorch/1.12
 python -m pip install --user spacy==2.3.2
 python -m pip install --user scispacy==0.2.5
 python -m pip install --user https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_core_sci_sm-0.2.5.tar.gz
-python -m pip install --user torch==1.9.1
 ```
+
+Note: should also work with `module load pytorch/1.12`.
