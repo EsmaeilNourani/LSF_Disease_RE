@@ -2,7 +2,7 @@
 
 This is a forked repository with minor updates to adapt the system for training on the LifeStyle-Disease relation corpus (LSD600) and to use it for Disease-Lifestyle relation extraction.
 
-For more information, please visit the original repository: [https://github.com/farmeh/RegulaTome_extraction] and the [paper](https://www.biorxiv.org/content/10.1101/2024.04.30.591824v1).
+For more information, please visit the original [repository](https://github.com/farmeh/RegulaTome_extraction) and the [paper](https://www.biorxiv.org/content/10.1101/2024.04.30.591824v1).
 
 
 There are two main folders:
