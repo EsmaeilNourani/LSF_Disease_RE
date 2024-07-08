@@ -1,10 +1,10 @@
 #!/bin/bash
-wget 'https://zenodo.org/api/records/10808330/files/RegulaTome-corpus.tar.gz/content' -O data.tar.gz
+wget 'https://zenodo.org/records/12684263/files/LSD600.tar.gz/content' -O data.tar.gz
 tar -xvf data.tar.gz -C .
 rm data.tar.gz
-mkdir -p RegulaTomeCorpus
-mv train RegulaTomeCorpus/train-set
-mv devel RegulaTomeCorpus/devel-set
+mkdir -p LSD600Corpus
+mv train LSD600Corpus/train-set
+mv dev LSD600Corpus/devel-set
 rm -rf test
 mkdir -p MODEL
 mkdir -p OUTPUTS
