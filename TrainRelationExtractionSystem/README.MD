@@ -8,29 +8,32 @@ Assume you copy to your home directory `$HOME`
 You must first do a git clone:
 ```
 cd $HOME
-git clone git@github.com:farmeh/RegulaTome_extraction.git
+git clone git@github.com:EsmaeilNourani/LSF_Disease_RE.git
+
 ```
 
 Then you need to download the train, devel and test data, and download the base RoBERTa-large-PM-M3-Voc model and prepare output folders using the following script:
 ```
-cd RegulaTome_extraction/TrainRelationExtractionSystem
+cd LSF_Disease_RE/TrainRelationExtractionSystem
 sh get_data.sh
 ```
 
-This will download the data from [Zenodo](https://zenodo.org/api/records/10808330/files/RegulaTome-corpus.tar.gz/content) and extract it into the following directories:
+This will download the data from [Zenodo](https://zenodo.org/records/12684263/files/LSD600.tar.gz/content) and extract it into the following directories:
 
-- train_folder: `$HOME/RegulaTome_extraction/TrainRelationExtractionSystem/RegulaTomeCorpus/train-set`
-- devel_folder: `$HOME/RegulaTome_extraction/TrainRelationExtractionSystem/RegulaTomeCorpus/devel-set`
+
+
+- train_folder: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem/LSD600Corpus/train-set`
+- devel_folder: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem/LSD600Corpus/devel-set`
 
 The script will then create all necessary model and output directories:
 
 ```
-model                        : $HOME/RegulaTome_extraction/TrainRelationExtractionSystem/MODEL
-main output folder           : $HOME/RegulaTome_extraction/TrainRelationExtractionSystem/OUTPUTS
-keeps control of gpu-jobs    : $HOME/RegulaTome_extraction/TrainRelationExtractionSystem/OUTPUTS/jobs
-keeps training log files     : $HOME/RegulaTome_extraction/TrainRelationExtractionSystem/OUTPUTS/logs
-keeps predictions and models : $HOME/RegulaTome_extraction/TrainRelationExtractionSystem/OUTPUTS/preds
-keeps cluster log files      : $HOME/RegulaTome_extraction/TrainRelationExtractionSystem/OUTPUTS/cluster-logs
+model                        : $HOME/LSF_Disease_RE/TrainRelationExtractionSystem/MODEL
+main output folder           : $HOME/LSF_Disease_RE/TrainRelationExtractionSystem/OUTPUTS
+keeps control of gpu-jobs    : $HOME/LSF_Disease_RE/TrainRelationExtractionSystem/OUTPUTS/jobs
+keeps training log files     : $HOME/LSF_Disease_RE/TrainRelationExtractionSystem/OUTPUTS/logs
+keeps predictions and models : $HOME/LSF_Disease_RE/TrainRelationExtractionSystem/OUTPUTS/preds
+keeps cluster log files      : $HOME/LSF_Disease_RE/TrainRelationExtractionSystem/OUTPUTS/cluster-logs
 ```
 
 The script will then try to download the [RoBERTa-large-PM-M3-Voc model](https://dl.fbaipublicfiles.com/biolm/RoBERTa-large-PM-M3-Voc-hf.tar.gz) (pre-trained RoBERTa model on PubMed and PMC and MIMIC-III with a BPE Vocab learnt from PubMed),
@@ -41,13 +44,13 @@ RoBERTa-large-PM-M3-Voc model is a RoBERTa model pre-trained on biomedical texts
 By running our training pipeline, this model will be fine-tuned on ComplexTome training data to extract Complex Formation relations from the scientific literature.
 
 If everything goes right, then the model should be here:
-- model_address: `$HOME/RegulaTome_extraction/TrainRelationExtractionSystem/MODEL/RoBERTa-large-PM-M3-Voc/RoBERTa-large-PM-M3-Voc-hf`
+- model_address: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem/MODEL/RoBERTa-large-PM-M3-Voc/RoBERTa-large-PM-M3-Voc-hf`
 
 If not, make sure to download the model manually and place it correctly into that folder.
 
-## Steps to train/finetune the model on the Puhti supercomputer
+## Steps to train/finetune the model on the C2 supercomputer
 
-Navigate to the directory where the code for relation extraction resides. In this case: `$HOME/RegulaTome_extraction/TrainRelationExtractionSystem`.
+Navigate to the directory where the code for relation extraction resides. In this case: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem`.
 
 From there you should execute `run_training_pipeline.sh` (e.g. `sh run_training_pipeline.sh`).
 This code submits 4 gpu-jobs for training 4 relation extraction models, each with a different random seed index 
