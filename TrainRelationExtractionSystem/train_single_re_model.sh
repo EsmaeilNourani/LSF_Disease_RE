@@ -11,6 +11,10 @@
 #SBATCH -o RegulaTome_extraction/TrainRelationExtractionSystem/cluster_logs/%j.out
 #SBATCH -e RegulaTome_extraction/TrainRelationExtractionSystem/cluster_logs/%j.err
 
+
+#activate env
+conda activate RE 
+
 #1. folders and paths ...
 DIR=$(pwd)
 export RT_REL_FOLDERPATH=$(pwd)
