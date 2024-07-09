@@ -8,7 +8,7 @@ Assume you copy to your home directory `$HOME`
 You must first do a git clone:
 ```
 cd $HOME
-git clone git@github.com:EsmaeilNourani/LSF_Disease_RE.git
+git clone https://github.com/EsmaeilNourani/LSF_Disease_RE.git
 
 ```
 
