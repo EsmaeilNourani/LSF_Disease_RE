@@ -54,26 +54,14 @@ Navigate to the directory where the code for relation extraction resides. In thi
 
 From there you should execute `run_training_pipeline.sh` (e.g. `sh run_training_pipeline.sh`).
 This code submits 4 gpu-jobs for training 4 relation extraction models, each with a different random seed index 
-(basically passing a random seed index when submitting a gpu-job, e.g. `sbatch train_single_re_model.sh 1`).
+(basically passing a random seed index when submitting a gpu-job, e.g. `qsub train_single_re_model.sh 1`).
 
 This is important that you first edit `train_single_re_model.sh` file, at least to assign the following parameters correctly:
-1. SBATCH --account : to assign your project account number
+1. PBS -W group_list= : to assign your project group name
 2. export TRANSFORMERS_CACHE= : to assign your transformer cache folder. 
 
 Once the gpu-jobs are submitted and completed, you can check the `OUTPUTS` folder and by checking the .log files, see which model has yielded the highest f-score,
 and take that model for subsequent use.
 
-
-## Technical consideration on Puhti
-
-You need to install spacy, scispacy, and the `en_core_sci_sm model`, a full spaCy pipeline for biomedical data, under your user. 
-
-```
-module purge
-module load pytorch/1.12
-python -m pip install --user spacy==2.3.2
-python -m pip install --user scispacy==0.2.5
-python -m pip install --user https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_core_sci_sm-0.2.5.tar.gz
-```
 
 

@@ -1,28 +1,33 @@
-#!/bin/bash
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --mem=32G
-#SBATCH -p gpu
-#SBATCH -t 72:00:00
-#SBATCH --gres=gpu:v100:1
-#SBATCH --ntasks-per-node=1
-### update with your project number and full path to where you have cloned the code
-#SBATCH --account=
-#SBATCH -o RegulaTome_extraction/TrainRelationExtractionSystem/cluster_logs/%j.out
-#SBATCH -e RegulaTome_extraction/TrainRelationExtractionSystem/cluster_logs/%j.err
+#!/bin/sh
+### Account information
+#PBS -W group_list=
+### Output files (comment out the next 2 lines to get the job name used instead)
+#PBS -o LSF_Disease_RE/TrainRelationExtractionSystem/OUTPUTS/cluster_logs/${PBS_JOBID}.out
+#PBS -e LSF_Disease_RE/TrainRelationExtractionSystem/OUTPUTS/cluster_logs/${PBS_JOBID}.err
+### Number of nodes
+#PBS -l nodes=1:ppn=24:gpus=1
+### Memory
+#PBS -l mem=32gb
+### Requesting time - format is <days>:<hours>:<minutes>:<seconds>
+#PBS -l walltime=23:00:00
+
 
 
 #activate env
 conda activate RE 
 
+
+echo Working directory is $PBS_O_WORKDIR
+
+
 #1. folders and paths ...
 DIR=$(pwd)
 export RT_REL_FOLDERPATH=$(pwd)
 model_address="$DIR/MODEL/RoBERTa-large-PM-M3-Voc/RoBERTa-large-PM-M3-Voc-hf/"
-train_set_address="$DIR/RegulaTomeCorpus/train-set/"
-devel_set_address="$DIR/RegulaTomeCorpus/devel-set/"
-preds_model_output_address="$DIR/OUTPUTS/preds/$SLURM_JOBID"
-logfile_address="$DIR/OUTPUTS/logs/${SLURM_JOBID}.log"
+train_set_address="$DIR/LSD600Corpus/train-set/"
+devel_set_address="$DIR/LSD600Corpus/devel-set/"
+preds_model_output_address="$DIR/OUTPUTS/preds/${PBS_JOBID}"
+logfile_address="$DIR/OUTPUTS/logs/${PBS_JOBID}.log"
 
 echo model_address=$model_address
 echo devel_set_address=$devel_set_address
@@ -40,15 +45,12 @@ fi
 
 random_seed_index="$1"
 
-# set execution environment
-module purge
-module load pytorch/1.12
 # update accordingly, give a folder on your machine
 export TRANSFORMERS_CACHE="transformers_cache/"
 export TOKENIZERS_PARALLELISM="false"
 
 # run
-python regulatome_final_rel_pipeline.py \
+python LSF_DIS_rel_pipeline.py \
     --random_seed_index "$random_seed_index" \
     --model_address "$model_address" \
     --train_set_address "$train_set_address" \

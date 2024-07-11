@@ -11,7 +11,7 @@ from logging import error
 
 # Relation types to treat as symmetric
 SYMMETRIC_RELATION_TYPES = set([
-    'Complex_formation'
+    "Statistically_associated","NO_statistical_association","Causes","Controls","Prevents","Treats","positive_statistical_association","negative_statistical_association","Associated","Positive_Influence","Negative_Influence"
 ])
 
 

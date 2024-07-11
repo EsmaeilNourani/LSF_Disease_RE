@@ -8,11 +8,12 @@ def external_eval_all_entities(pred_folder, program_halt):
     execution_folder = os.environ['RT_REL_FOLDERPATH'] or cwd
     if execution_folder[-1] != "/":
         execution_folder += "/"
-    devel_gold_folder = execution_folder + "RegulaTomeCorpus/devel-set/" #space is really important at the end
+    devel_gold_folder = execution_folder + "LSD600Corpus/devel-set/" #space is really important at the end
 
     #<<<CRITICAL>>>: we should use the same command for all experiments
-    command = "python3 evalsorel.py --entities Protein,Chemical,Complex,Family --relations Catalysis_of_ADP-ribosylation,Catalysis_of_SUMOylation,Catalysis_of_acetylation,Catalysis_of_acylation,Catalysis_of_deSUMOylation,Catalysis_of_deacetylation,Catalysis_of_deacylation,Catalysis_of_deglycosylation,Catalysis_of_demethylation,Catalysis_of_deneddylation,Catalysis_of_depalmitoylation,Catalysis_of_dephosphorylation,Catalysis_of_deubiquitination,Catalysis_of_farnesylation,Catalysis_of_geranylgeranylation,Catalysis_of_glycosylation,Catalysis_of_lipidation,Catalysis_of_methylation,Catalysis_of_neddylation,Catalysis_of_other_small_molecule_conjugation_or_removal,Catalysis_of_palmitoylation,Catalysis_of_phosphoryl_group_conjugation_or_removal,Catalysis_of_phosphorylation,Catalysis_of_posttranslational_modification,Catalysis_of_prenylation,Catalysis_of_small_molecule_removal,Catalysis_of_small_protein_conjugation,Catalysis_of_small_protein_conjugation_or_removal,Catalysis_of_small_protein_removal,Catalysis_of_ubiquitination,Complex_formation,Negative_regulation,Other_catalysis_of_small_molecule_conjugation,Other_catalysis_of_small_molecule_removal,Other_catalysis_of_small_protein_conjugation,Other_catalysis_of_small_protein_removal,Positive_regulation,Regulation,Regulation_of_degradation,Regulation_of_gene_expression,Regulation_of_transcription,Regulation_of_translation " \
+    command = "python3 evalsorel.py --entities Lifestyle_factor,Disease --relations Causes,Controls,Prevents,Treats,Statistically_associated,positive_statistical_association,negative_statistical_association,NO_statistical_association " \
               + devel_gold_folder + " " + pred_folder
+
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd, shell=True)
     stdout, stderr = process.communicate()
     stdout = stdout.decode('utf-8').strip()
@@ -86,10 +87,10 @@ if __name__ == "__main__":
 
     #5: read and set parameters #<<<CRITICAL>>> hardcoded- based on the best found values during optimization (These are also mentioned in the paper).
     args.optimizer = "adam"
-    args.num_train_epochs = "26"
+    args.num_train_epochs = "75"
     args.minibatch_size = "16"
-    args.learning_rate = "4e-6"
-    args.max_seq_len = "128"
+    args.learning_rate = "5e-6"
+    args.max_seq_len = "180"
     from helpers import pipeline_variables
     args.representation_strategy = pipeline_variables.BERT_Representation_Strategy.MASK_EVERYTHING #<<<CRITICAL>>>
 
@@ -111,7 +112,7 @@ if __name__ == "__main__":
     import project
     import relation_extraction_pipeline_pt
 
-    prj = project.Project(PARAM_logfile_address, "regulatome_final_configs.json")
+    prj = project.Project(PARAM_logfile_address, "LSF_DIS_rel_configs.json")
     prj.lp("PARAMS:\t" + str(all_params))
     pipeline = relation_extraction_pipeline_pt.RelationExtractionPipeline(
         project=prj,
