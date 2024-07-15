@@ -63,5 +63,13 @@ This is important that you first edit `train_single_re_model.sh` file, at least 
 Once the gpu-jobs are submitted and completed, you can check the `OUTPUTS` folder and by checking the .log files, see which model has yielded the highest f-score,
 and take that model for subsequent use.
 
-
+## Considerations about using C2
+* You may consider loading the existing modules on C2 for Tensorflow and Pytorch instead of installing them
+```
+module purge
+module load tools computerome_utils/2.0
+module load anaconda3/2022.10
+module load pytorch/1.12.1
+module load tensorflow/2.9.1
+```
 
