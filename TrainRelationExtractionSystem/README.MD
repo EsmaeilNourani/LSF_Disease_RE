@@ -51,9 +51,9 @@ If not, make sure to download the model manually and place it correctly into tha
 
 Navigate to the directory where the code for relation extraction resides. In this case: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem`.
 
-From there you should execute `run_training_pipeline.sh` (e.g. `sh run_training_pipeline.sh`).
-This code submits 4 gpu-jobs for training 4 relation extraction models, each with a different random seed index 
-(basically passing a random seed index when submitting a gpu-job, e.g. `qsub train_single_re_model.sh 1`).
+
+From there you should execute train_single_re_model.sh (e.g., `qsub train_single_re_model.sh`). This code submits a GPU job for training a relation extraction model. You can change the random seed index in the script before running it. To train multiple models with different random seed indices, modify the random_seed_index variable in train_single_re_model.sh for each run.
+
 
 This is important that you first edit `train_single_re_model.sh` file, at least to assign the following parameters correctly:
 1. PBS -W group_list= : to assign your project group name
