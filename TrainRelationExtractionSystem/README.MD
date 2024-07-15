@@ -72,3 +72,12 @@ module load pytorch/1.12.1
 module load tensorflow/2.9.1
 ```
 
+* Still you need to install the following libraries
+```
+#run the next 4 commands only once, then you have them in your user.
+python -m pip install --user spacy==2.3.2
+python -m pip install --user scispacy==0.2.5
+python -m pip install --user https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_core_sci_sm-0.2.5.tar.gz
+python -m pip install --user transformers==4.20.1
+```
+
