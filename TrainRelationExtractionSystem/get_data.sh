@@ -1,11 +1,21 @@
 #!/bin/bash
-wget 'https://zenodo.org/records/12684263/files/LSD600.tar.gz/content' -O data.tar.gz
-tar -xvf data.tar.gz -C .
+# Step 1: Download the archive
+wget 'https://zenodo.org/records/12684263/files/LSD600.tar.gz' -O data.tar.gz
+
+# Step 2: Extract the contents of the archive
+tar -xvf data.tar.gz
+
+# Step 3: Remove the downloaded archive to save space
 rm data.tar.gz
-mkdir -p LSD600Corpus
-mv train LSD600Corpus/train-set
-mv dev LSD600Corpus/devel-set
-rm -rf test
+
+# Step 4: Rename the root folder
+mv LSD600 LSD600Corpus
+
+# Step 5: Rename the subfolders
+mv LSD600Corpus/train LSD600Corpus/train-set
+mv LSD600Corpus/dev LSD600Corpus/devel-set
+mv LSD600Corpus/test LSD600Corpus/test-set
+
 mkdir -p MODEL
 mkdir -p OUTPUTS
 mkdir -p OUTPUTS/jobs
