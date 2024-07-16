@@ -1,0 +1,32 @@
+T1	Disease 31 42	prediabetes
+T2	Disease 46 54	diabetes
+T3	Disease 192 203	prediabetes
+T4	Disease 207 215	diabetes
+T6	Disease 585 596	prediabetes
+T9	Disease 764 772	diabetes
+T12	Disease 937 945	diabetes
+T13	Disease 982 993	prediabetes
+T14	Disease 1012 1020	diabetes
+T16	Disease 1398 1406	diabetes
+T17	Lifestyle_factor 1475 1483	exercise
+T18	Disease 1551 1562	prediabetes
+T19	Disease 1566 1574	diabetes
+T20	Disease 1734 1745	prediabetes
+T21	Disease 1775 1783	diabetes
+T27	Out-of-scope 80 99	lifestyle education
+T28	Out-of-scope 299 318	lifestyle education
+T29	Lifestyle_factor 1297 1305	exercise
+T15	Out-of-scope 1659 1678	lifestyle education
+T24	Lifestyle_factor 1625 1653	comprehensive health checkup
+T30	Lifestyle_factor 264 293	comprehensive health checkups
+R2	Prevents Arg1:T24 Arg2:T19	
+T31	Out-of-scope 1680 1699	Lifestyle education
+T23	Lifestyle_factor 1703 1717	health checkup
+R4	Prevents Arg1:T23 Arg2:T21	
+T26	Lifestyle_factor 371 415	basic mandatory occupational health checkups
+T25	Lifestyle_factor 323 344	doctor's consultation
+T35	Lifestyle_factor 60 74	health checkup
+T5	Out-of-scope 835 857	glucose-lowering drugs
+R6	Prevents Arg1:T35 Arg2:T2	
+R1	negative_statistical_association Arg1:T17 Arg2:T16	
+T7	Out-of-scope 1534 1545	Progression

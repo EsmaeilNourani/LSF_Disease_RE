@@ -1,0 +1,42 @@
+T1	Disease 27 43	bipolar disorder
+T2	Disease 126 142	Bipolar disorder
+T3	Out-of-scope 312 323	stabilizers
+T4	Disease 352 368	bipolar disorder
+T5	Out-of-scope 445 456	stabilizers
+T6	Disease 584 600	bipolar disorder
+T7	Out-of-scope 607 618	stabilizers
+T9	Disease 920 936	bipolar disorder
+T10	Disease 1243 1259	bipolar disorder
+T11	Disease 1388 1404	bipolar disorder
+T12	Disease 2105 2121	bipolar disorder
+T14	Disease 2633 2649	bipolar disorder
+T17	Disease 3878 3894	bipolar disorder
+T19	Disease 4234 4250	bipolar disorder
+T23	Out-of-scope 399 422	atypical antipsychotics
+T24	Out-of-scope 561 579	psychotropic drugs
+T25	Out-of-scope 620 643	atypical antipsychotics
+T26	Out-of-scope 662 673	anxiolytics
+T27	Out-of-scope 727 752	pharmacological treatment
+T28	Out-of-scope 1213 1239	pharmacological treatments
+T29	Out-of-scope 2006 2032	pharmacological treatments
+T30	Out-of-scope 2473 2496	atypical antipsychotics
+T31	Out-of-scope 2786 2809	atypical antipsychotics
+T32	Out-of-scope 4024 4047	atypical antipsychotics
+T33	Out-of-scope 2547 2554	lithium
+T34	Out-of-scope 2769 2776	lithium
+T35	Out-of-scope 2896 2911	benzodiazepines
+T36	Out-of-scope 2991 3006	anticonvulsants
+T38	Out-of-scope 3182 3189	lithium
+T39	Out-of-scope 3388 3403	anticonvulsants
+T40	Out-of-scope 4007 4014	lithium
+T41	Out-of-scope 4121 4136	benzodiazepines
+T42	Lifestyle_factor 4174 4188	polymedication
+T43	Lifestyle_factor 2702 2716	polymedication
+T20	Out-of-scope 3011 3036	electroconvulsive therapy
+T44	Out-of-scope 645 660	antidepressants
+T45	Out-of-scope 2597 2612	antidepressants
+T46	Out-of-scope 2871 2886	antidepressants
+T47	Out-of-scope 3287 3302	antidepressants
+T48	Out-of-scope 4096 4111	antidepressants
+R1	Out-of-scope Arg1:T42 Arg2:T19	
+#1	AnnotatorNotes R1	observation

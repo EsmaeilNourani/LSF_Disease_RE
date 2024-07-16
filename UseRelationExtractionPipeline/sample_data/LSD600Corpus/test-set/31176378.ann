@@ -1,0 +1,21 @@
+T2	Disease 103 110	obesity
+T3	Disease 142 149	obesity
+T6	Disease 285 300	type 2 diabetes
+T8	Disease 382 389	obesity
+T10	Disease 555 562	obesity
+T11	Disease 650 657	obesity
+T12	Disease 762 769	obesity
+T14	Out-of-scope 939 948	Vitamin D
+T23	Disease 1586 1593	obesity
+T25	Disease 227 247	vitamin D deficiency
+T26	Disease 169 189	vitamin D deficiency
+T27	Disease 1514 1534	Vitamin D deficiency
+T28	Disease 1201 1221	Vitamin D deficiency
+T29	Disease 344 364	vitamin D deficiency
+T30	Disease 466 486	Vitamin D deficiency
+T31	Disease 14 34	vitamin D deficiency
+T1	Out-of-scope 1483 1492	Vitamin D
+T4	Disease 1658 1676	insulin resistance
+T5	Out-of-scope 860 865	serum
+T7	Out-of-scope 825 830	blood
+T9	Out-of-scope 771 776	Blood

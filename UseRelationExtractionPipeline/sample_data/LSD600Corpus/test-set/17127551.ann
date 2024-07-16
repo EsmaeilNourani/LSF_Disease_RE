@@ -1,0 +1,28 @@
+T1	Lifestyle_factor 11 19	cannabis
+T2	Disease 54 58	ADHD
+T3	Disease 63 81	cocaine dependence
+T4	Lifestyle_factor 104 112	Cannabis
+T5	Lifestyle_factor 317 325	cannabis
+T6	Disease 400 415	substance abuse
+T7	Lifestyle_factor 482 490	cannabis
+T8	Lifestyle_factor 538 545	cocaine
+T10	Disease 584 624	Attention Deficit Hyperactivity Disorder
+T11	Disease 626 630	ADHD
+T13	Disease 683 687	ADHD
+T14	Disease 799 803	ADHD
+T15	Disease 808 826	cocaine dependence
+T16	Lifestyle_factor 889 897	cannabis
+T17	Lifestyle_factor 959 967	cannabis
+T18	Lifestyle_factor 1103 1111	cannabis
+T20	Disease 1161 1165	ADHD
+T21	Disease 232 253	psychiatric disorders
+*	Equiv T11 T10
+T22	Disease 420 441	psychiatric disorders
+T23	Disease 633 650	Cocaine dependent
+T24	Disease 552 569	cocaine dependent
+T25	Disease 1119 1136	cocaine dependent
+T26	Lifestyle_factor 137 154	illicit substance
+T9	Out-of-scope 766 781	methylphenidate
+R1	Out-of-scope Arg1:T9 Arg2:T14	
+R2	Out-of-scope Arg1:T9 Arg2:T15	
+#1	AnnotatorNotes R1	hypothesis

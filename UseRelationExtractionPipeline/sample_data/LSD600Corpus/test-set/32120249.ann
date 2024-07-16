@@ -1,0 +1,30 @@
+T2	Disease 78 90	hypertension
+T3	Lifestyle_factor 158 163	noise
+T4	Disease 191 203	hypertension
+T6	Disease 347 359	hypertension
+T8	Disease 521 533	hypertension
+T10	Disease 923 935	hypertension
+T11	Disease 1069 1081	hypertension
+T12	Lifestyle_factor 1438 1443	noise
+T13	Disease 1611 1623	hypertension
+T14	Disease 1792 1804	hypertension
+T16	Lifestyle_factor 877 882	noise
+T17	Lifestyle_factor 1535 1540	noise
+R3	positive_statistical_association Arg1:T17 Arg2:T13	
+T19	Lifestyle_factor 59 64	noise
+T20	Lifestyle_factor 1748 1753	noise
+T23	Lifestyle_factor 318 323	noise
+T24	Lifestyle_factor 641 646	noise
+R4	Causes Arg1:T20 Arg2:T14	
+T21	Lifestyle_factor 502 507	noise
+T25	Lifestyle_factor 967 972	noise
+T26	Lifestyle_factor 1109 1114	noise
+T27	Lifestyle_factor 1719 1722	PPE
+T28	Lifestyle_factor 1236 1239	PPE
+T1	Lifestyle_factor 1205 1234	personal protection equipment
+R5	Prevents Arg1:T27 Arg2:T14	
+*	Equiv T28 T1
+R2	positive_statistical_association Arg1:T25 Arg2:T10	
+R1	Out-of-scope Arg1:T3 Arg2:T4	
+#1	AnnotatorNotes R1	hypothesis
+R6	positive_statistical_association Arg1:T26 Arg2:T11	

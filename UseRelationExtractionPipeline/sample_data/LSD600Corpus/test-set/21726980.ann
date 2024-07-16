@@ -1,0 +1,21 @@
+T1	Lifestyle_factor 4 18	sleep-deprived
+T2	Disease 54 81	juvenile myoclonic epilepsy
+T3	Lifestyle_factor 380 397	sleep deprivation
+T4	Disease 448 456	epilepsy
+T5	Disease 590 617	juvenile myoclonic epilepsy
+T6	Disease 619 622	JME
+T7	Lifestyle_factor 637 654	sleep deprivation
+T8	Disease 776 779	JME
+T9	Lifestyle_factor 847 864	sleep deprivation
+T10	Lifestyle_factor 1048 1062	sleep-deprived
+T11	Disease 1153 1156	JME
+T12	Disease 1230 1233	JME
+T13	Lifestyle_factor 1288 1305	sleep deprivation
+T14	Disease 1421 1439	myoclonic epilepsy
+T15	Lifestyle_factor 1522 1539	sleep deprivation
+*	Equiv T6 T5
+T16	Lifestyle_factor 351 356	sleep
+T17	Lifestyle_factor 869 874	sleep
+T18	Lifestyle_factor 1310 1323	rebound sleep
+T19	Lifestyle_factor 659 664	sleep
+T20	Disease 1365 1402	cortico-thalamic circuit dysfunctions

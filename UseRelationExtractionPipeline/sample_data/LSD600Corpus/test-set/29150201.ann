@@ -1,0 +1,31 @@
+T7	Lifestyle_factor 2524 2545	ambient air pollution
+T8	Disease 2762 2775	heart disease
+T9	Disease 2777 2814	chronic obstructive pulmonary disease
+T10	Disease 2871 2894	cerebrovascular disease
+T11	Lifestyle_factor 2972 2984	malnutrition
+T12	Lifestyle_factor 2986 2999	air pollution
+T15	Disease 1251 1276	non-communicable diseases
+T16	Disease 1278 1282	NCDs
+*	Equiv T15 T16
+T17	Disease 2319 2323	NCDs
+T18	Disease 1537 1541	NCDs
+T19	Disease 2006 2010	NCDs
+T20	Disease 2160 2164	NCDs
+T21	Disease 3650 3654	NCDs
+R1	positive_statistical_association Arg1:T7 Arg2:T17	
+T24	Disease 2843 2865	respiratory infections
+T25	Disease 1207 1227	nutritional diseases
+T26	Disease 1169 1181	communicable
+T27	Disease 1183 1191	maternal
+T28	Disease 1193 1201	neonatal
+T29	Disease 1229 1235	CMNNDs
+T30	Disease 1900 1906	CMNNDs
+T31	Disease 3797 3803	CMNNDs
+T32	Disease 3673 3679	CMNNDs
+T33	Disease 1577 1583	CMNNDs
+T34	Disease 1821 1827	CMNNDs
+T35	Disease 2816 2835	diarrhoeal diseases
+T1	Out-of-scope 2302 2314	risk factors
+T2	Out-of-scope 2917 2929	risk factors
+T3	Out-of-scope 2934 2939	DALYs
+R2	Out-of-scope Arg1:T11 Arg2:T3	

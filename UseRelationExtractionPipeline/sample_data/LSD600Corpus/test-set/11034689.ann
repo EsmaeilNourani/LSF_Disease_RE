@@ -1,0 +1,51 @@
+T1	Lifestyle_factor 0 13	Psychotherapy
+T2	Disease 18 33	bulimia nervosa
+T3	Disease 60 75	Bulimia nervosa
+T4	Disease 85 94	syndromes
+T6	Lifestyle_factor 173 186	psychotherapy
+T7	Disease 262 277	bulimia nervosa
+T8	Lifestyle_factor 285 300	psychotherapies
+T11	Lifestyle_factor 648 661	psychotherapy
+T12	Lifestyle_factor 822 837	psychotherapies
+T13	Lifestyle_factor 939 954	psychotherapies
+T14	Disease 1053 1069	Eating Disorders
+T15	Out-of-scope 1271 1278	Anxiety
+T16	Out-of-scope 1283 1291	Neurosis
+T17	Lifestyle_factor 1462 1475	psychotherapy
+T18	Disease 1512 1527	bulimia nervosa
+T20	Disease 3311 3326	bulimia nervosa
+T21	Lifestyle_factor 3419 3431	binge eating
+T22	Lifestyle_factor 3506 3521	psychotherapies
+T23	Lifestyle_factor 3554 3566	binge eating
+T24	Out-of-scope 3768 3791	Non CBT-psychotherapies
+T25	Disease 4144 4159	bulimia nervosa
+T28	Disease 4374 4389	EDNOS syndromes
+T29	Lifestyle_factor 4412 4427	psychotherapies
+T30	Lifestyle_factor 4447 4462	psychotherapies
+T31	Disease 104 125	binge eating disorder
+T32	Disease 477 499	binge eating syndromes
+T33	Disease 1529 1550	binge eating disorder
+T34	Disease 4342 4363	binge eating disorder
+T35	Out-of-scope 1259 1269	Depression
+R1	Treats Arg1:T6 Arg2:T7	
+R2	Treats Arg1:T8 Arg2:T7	
+T36	Lifestyle_factor 188 215	cognitive behaviour therapy
+T37	Lifestyle_factor 217 220	CBT
+*	Equiv T37 T36
+R3	Treats Arg1:T36 Arg2:T7	
+T38	Lifestyle_factor 370 373	CBT
+T39	Lifestyle_factor 570 573	CBT
+T40	Lifestyle_factor 663 666	CBT
+T41	Lifestyle_factor 698 701	CBT
+T9	Lifestyle_factor 3346 3349	CBT
+T10	Lifestyle_factor 3453 3456	CBT
+T42	Lifestyle_factor 3588 3591	CBT
+T43	Lifestyle_factor 3704 3707	CBT
+T44	Lifestyle_factor 3658 3661	CBT
+T45	Lifestyle_factor 3757 3760	CBT
+T46	Lifestyle_factor 4113 4140	cognitive-behaviour therapy
+T47	Lifestyle_factor 433 461	psychotherapeutic treatments
+T5	Disease 1558 1581	EDNOS of a bulimic type
+R5	Treats Arg1:T46 Arg2:T25	
+#2	AnnotatorNotes T15	# TODO: check
+R4	Out-of-scope Arg1:T38 Arg2:T7	

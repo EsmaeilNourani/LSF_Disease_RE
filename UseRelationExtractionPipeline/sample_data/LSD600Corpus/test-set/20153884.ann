@@ -1,0 +1,32 @@
+T1	Disease 22 36	ovarian cancer
+T4	Disease 212 229	epithelial cancer
+T5	Lifestyle_factor 260 268	Flaxseed
+T6	Lifestyle_factor 304 323	omega-3 fatty acids
+T7	Disease 354 367	breast cancer
+T8	Disease 398 405	cancers
+T11	Disease 512 526	ovarian cancer
+T13	Lifestyle_factor 622 626	diet
+T14	Disease 669 683	ovarian cancer
+T15	Lifestyle_factor 972 980	flaxseed
+T16	Disease 1010 1024	ovarian cancer
+T19	Lifestyle_factor 1170 1178	Flaxseed
+T20	Lifestyle_factor 1226 1245	omega-3 fatty acids
+T21	Lifestyle_factor 1314 1338	flaxseed supplementation
+T22	Disease 1422 1436	ovarian cancer
+T23	Lifestyle_factor 1494 1502	flaxseed
+T24	Lifestyle_factor 1641 1649	flaxseed
+T25	Disease 1675 1689	ovarian cancer
+R1	Treats Arg1:T24 Arg2:T25	
+R2	Treats Arg1:T21 Arg2:T22	
+R3	Prevents Arg1:T6 Arg2:T7	
+T26	Lifestyle_factor 74 96	flaxseed-enriched diet
+T27	Lifestyle_factor 457 479	flaxseed-enriched diet
+T28	Lifestyle_factor 592 609	flaxseed-enriched
+T29	Lifestyle_factor 1110 1123	flaxseed diet
+T30	Lifestyle_factor 863 881	omega-3 fatty acid
+T31	Disease 937 951	ovarian tumors
+T9	Lifestyle_factor 284 293	vegetable
+R5	Controls Arg1:T15 Arg2:T31	
+R7	Out-of-scope Arg1:T6 Arg2:T8	
+R4	Treats Arg1:T26 Arg2:T1	
+#1	AnnotatorNotes R7	hypothesis

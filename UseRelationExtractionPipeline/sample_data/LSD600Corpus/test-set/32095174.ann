@@ -1,0 +1,60 @@
+T1	Lifestyle_factor 22 26	Food
+T4	Disease 130 146	Eating disorders
+T5	Disease 248 257	syndromes
+T6	Lifestyle_factor 507 519	binge eating
+T7	Lifestyle_factor 575 588	psychotherapy
+T9	Lifestyle_factor 1416 1429	Psychotherapy
+T11	Disease 1476 1491	Bulimia Nervosa
+T12	Disease 1495 1511	Anorexia Nervosa
+T13	Disease 1515 1530	Eating Disorder
+T14	Disease 1546 1553	Obesity
+T15	Lifestyle_factor 2009 2022	psychotherapy
+T16	Lifestyle_factor 2123 2136	psychotherapy
+T17	Lifestyle_factor 2351 2364	psychotherapy
+T18	Lifestyle_factor 2451 2464	psychotherapy
+T19	Lifestyle_factor 3119 3132	psychotherapy
+T20	Disease 148 151	EDs
+T21	Disease 302 304	ED
+T22	Disease 697 700	EDs
+T23	Disease 1190 1193	EDs
+T24	Disease 2172 2175	EDs
+T25	Disease 2813 2816	EDs
+T26	Disease 2404 2406	ED
+T28	Disease 1451 1472	Binge Eating Disorder
+T29	Disease 840 843	BED
+T30	Disease 77 98	Binge Eating Disorder
+T27	Disease 817 838	binge eating disorder
+T31	Disease 3256 3259	BED
+T32	Disease 2612 2615	BED
+*	Equiv T29 T27
+R4	Treats Arg1:T18 Arg2:T32	
+R5	Treats Arg1:T16 Arg2:T24	
+T33	Lifestyle_factor 103 118	Abnormal Eating
+T34	Disease 157 180	substance use disorders
+T35	Disease 182 186	SUDs
+*	Equiv T35 T34
+T36	Disease 285 297	opiate abuse
+T37	Lifestyle_factor 396 402	opioid
+T40	Lifestyle_factor 2052 2080	Cognitive behavioral therapy
+T41	Lifestyle_factor 2082 2085	CBT
+*	Equiv T41 T40
+R8	Treats Arg1:T40 Arg2:T24	
+T42	Lifestyle_factor 4 10	Opioid
+T44	Out-of-scope 777 795	opioid antagonists
+T43	Lifestyle_factor 855 877	abnormal eating habits
+T45	Out-of-scope 1364 1382	Opioid antagonists
+T46	Out-of-scope 1386 1396	naltrexone
+T47	Out-of-scope 1400 1409	bupropion
+T48	Out-of-scope 1162 1172	naltrexone
+T49	Lifestyle_factor 1852 1856	food
+T51	Out-of-scope 1924 1933	bupropion
+T52	Out-of-scope 1938 1948	naltrexone
+T53	Out-of-scope 329 357	naltrexone-bupropion therapy
+T2	Lifestyle_factor 2710 2741	psychotherapeutic interventions
+T3	Lifestyle_factor 2541 2557	opiate addiction
+T8	Lifestyle_factor 2180 2199	chemical addictions
+T10	Lifestyle_factor 922 946	psychological approaches
+T38	Out-of-scope 534 550	lack of evidence
+T39	Out-of-scope 3330 3344	must be tested
+*	Equiv T20 T4
+R1	Treats Arg1:T2 Arg2:T25	

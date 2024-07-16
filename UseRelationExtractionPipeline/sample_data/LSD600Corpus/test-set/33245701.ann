@@ -1,0 +1,35 @@
+T1	Disease 51 59	COVID-19
+T2	Lifestyle_factor 560 573	air pollution
+T3	Disease 632 640	COVID-19
+T4	Disease 642 649	Obesity
+T5	Lifestyle_factor 694 707	air pollution
+T6	Lifestyle_factor 761 774	air pollution
+T7	Disease 789 797	COVID-19
+T8	Disease 1054 1062	COVID-19
+T9	Lifestyle_factor 1206 1215	vitamin D
+T10	Disease 1254 1262	COVID-19
+T12	Lifestyle_factor 1624 1630	garlic
+R1	positive_statistical_association Arg1:T2 Arg2:T3	
+R2	positive_statistical_association Arg1:T6 Arg2:T7	
+R3	Treats Arg1:T9 Arg2:T10	
+T13	Lifestyle_factor 808 818	Poor sleep
+T14	Lifestyle_factor 1073 1077	Zinc
+T15	Lifestyle_factor 917 926	Melatonin
+T16	Lifestyle_factor 896 905	melatonin
+T17	Lifestyle_factor 1082 1092	vitamins D
+T18	Lifestyle_factor 1097 1098	C
+T19	Disease 1172 1200	upper respiratory infections
+R5	Treats Arg1:T14 Arg2:T19	
+R6	Treats Arg1:T17 Arg2:T19	
+R7	Treats Arg1:T18 Arg2:T19	
+T20	Lifestyle_factor 1273 1284	Cannabidiol
+T21	Lifestyle_factor 1429 1448	dietary supplements
+T22	Lifestyle_factor 1570 1588	olive leaf extract
+T23	Lifestyle_factor 1590 1599	berberine
+T24	Lifestyle_factor 1601 1618	N-acetyl cysteine
+T25	Lifestyle_factor 1540 1556	yeast fermentate
+T26	Lifestyle_factor 1558 1564	EpiCor
+T27	Lifestyle_factor 1526 1536	astragalus
+T11	Lifestyle_factor 482 503	environmental factors
+T28	Out-of-scope 715 720	lungs
+R4	Controls Arg1:T15 Arg2:T8	

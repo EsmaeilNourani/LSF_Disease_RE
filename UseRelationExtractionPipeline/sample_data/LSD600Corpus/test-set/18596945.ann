@@ -1,0 +1,27 @@
+T1	Disease 51 55	ADHD
+T2	Disease 264 268	ADHD
+T3	Disease 332 336	ADHD
+T4	Disease 426 430	ADHD
+T5	Disease 688 692	ADHD
+T6	Lifestyle_factor 1012 1029	amphetamine salts
+T7	Lifestyle_factor 1031 1039	Adderall
+T8	Lifestyle_factor 1055 1072	amphetamine salts
+T10	Lifestyle_factor 1334 1341	cocaine
+T11	Lifestyle_factor 1384 1391	cocaine
+T12	Lifestyle_factor 1396 1407	amphetamine
+T13	Out-of-scope 1675 1679	ADHD
+T14	Disease 1916 1920	ADHD
+T15	Disease 222 262	attention-deficit/hyperactivity disorder
+*	Equiv T2 T15
+T16	Lifestyle_factor 450 462	illicit drug
+T17	Out-of-scope 482 514	prescribed stimulant medications
+T20	Lifestyle_factor 1133 1140	Ritalin
+T21	Lifestyle_factor 1351 1366	methamphetamine
+T22	Lifestyle_factor 1427 1439	illicit drug
+T23	Lifestyle_factor 1605 1623	illicit stimulants
+T24	Lifestyle_factor 1091 1099	Adderall
+T25	Lifestyle_factor 167 185	illicit stimulants
+T26	Lifestyle_factor 1180 1195	stimulant abuse
+T27	Lifestyle_factor 1295 1321	nonprescription stimulants
+T19	Lifestyle_factor 1116 1131	methylphenidate
+T9	Out-of-scope 774 797	prescription stimulants

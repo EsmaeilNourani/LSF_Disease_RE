@@ -1,0 +1,39 @@
+T1	Disease 0 4	ADHD
+T2	Lifestyle_factor 46 63	circadian rhythms
+T3	Lifestyle_factor 214 231	circadian pattern
+T4	Disease 341 345	ADHD
+T5	Lifestyle_factor 379 396	circadian pattern
+T6	Disease 432 436	ADHD
+T7	Lifestyle_factor 516 534	circadian patterns
+T8	Disease 540 544	ADHD
+T9	Disease 691 695	ADHD
+T10	Disease 776 780	ADHD
+T11	Disease 864 877	Schizophrenia
+T12	Lifestyle_factor 955 972	Circadian rhythms
+T13	Disease 1133 1137	ADHD
+T14	Disease 1256 1260	ADHD
+T15	Disease 1387 1391	ADHD
+T16	Disease 1512 1516	ADHD
+T18	Disease 1838 1842	ADHD
+T19	Disease 1949 1953	ADHD
+T20	Lifestyle_factor 995 1000	sleep
+T21	Disease 83 101	sleep disturbances
+T22	Disease 580 598	sleep disturbances
+T23	Disease 1194 1212	sleep disturbances
+T24	Disease 299 339	attention-deficit/hyperactivity disorder
+T25	Lifestyle_factor 1310 1324	motor activity
+T26	Lifestyle_factor 67 81	motor activity
+T27	Lifestyle_factor 235 249	motor activity
+T28	Lifestyle_factor 400 414	motor activity
+T29	Lifestyle_factor 976 990	motor activity
+T31	Lifestyle_factor 1879 1893	motor activity
+R2	positive_statistical_association Arg1:T25 Arg2:T14	
+T32	Out-of-scope 1403 1416	hyperactivity
+T34	Disease 840 859	Affective Disorders
+R1	Statistically_associated Arg1:T2 Arg2:T1	
+R3	Statistically_associated Arg1:T26 Arg2:T1	
+T30	Lifestyle_factor 1540 1578	fragmentation of the circadian pattern
+R4	positive_statistical_association Arg1:T30 Arg2:T16	
+T17	Lifestyle_factor 1350 1366	delay in bedtime
+R5	positive_statistical_association Arg1:T17 Arg2:T14	
+T33	Out-of-scope 1156 1161	trend

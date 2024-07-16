@@ -1,0 +1,27 @@
+T1	Lifestyle_factor 57 67	rural area
+T2	Lifestyle_factor 94 108	Undernutrition
+T3	Lifestyle_factor 130 150	developing countries
+T4	Lifestyle_factor 304 318	undernutrition
+T5	Lifestyle_factor 774 784	rural area
+T6	Out-of-scope 1324 1333	nutrition
+T7	Disease 1494 1503	diarrhoea
+T8	Lifestyle_factor 1509 1516	hygiene
+T9	Disease 1670 1677	malaria
+T10	Disease 1938 1945	malaria
+T11	Lifestyle_factor 2515 2533	nutritional status
+T13	Disease 3061 3068	malaria
+T15	Disease 3241 3248	malaria
+T16	Lifestyle_factor 3360 3370	rural area
+T18	Disease 3552 3559	malaria
+T20	Lifestyle_factor 3731 3756	nutritional interventions
+T21	Lifestyle_factor 334 339	rural
+T23	Out-of-scope 1058 1071	light clothes
+T22	Lifestyle_factor 1432 1437	foods
+T12	Lifestyle_factor 2635 2653	nutritional status
+T14	Lifestyle_factor 3140 3176	variations in the nutritional status
+T17	Lifestyle_factor 3448 3466	nutritional status
+R1	Causes Arg1:T13 Arg2:T14	
+T19	Lifestyle_factor 3600 3618	nutritional status
+T24	Out-of-scope 3535 3547	vaccinations
+T25	Out-of-scope 3491 3525	Focused public health intervention
+R2	Out-of-scope Arg1:T19 Arg2:T25	

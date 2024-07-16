@@ -54,7 +54,7 @@ Navigate to the directory where the code for relation extraction resides. In thi
 
 From there you should execute train_single_re_model.sh (e.g., `qsub train_single_re_model.sh`). This code submits a GPU job for training a relation extraction model. You can change the random seed index in the script before running it. To train multiple models with different random seed indices, modify the random_seed_index variable in train_single_re_model.sh for each run.
 
-
+    
 This is important that you first edit `train_single_re_model.sh` file, at least to assign the following parameters correctly:
 1. PBS -W group_list= : to assign your project group name
 2. export TRANSFORMERS_CACHE= : to assign your transformer cache folder. 

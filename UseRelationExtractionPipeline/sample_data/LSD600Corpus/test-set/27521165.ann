@@ -1,0 +1,36 @@
+T1	Lifestyle_factor 33 50	disordered eating
+T2	Disease 65 80	coeliac disease
+T3	Disease 127 142	coeliac disease
+T4	Lifestyle_factor 174 191	disordered eating
+T5	Lifestyle_factor 231 248	disordered eating
+T6	Lifestyle_factor 272 289	disordered eating
+T7	Disease 304 319	coeliac disease
+T8	Lifestyle_factor 450 467	disordered eating
+T10	Disease 592 607	coeliac disease
+T11	Disease 619 645	inflammatory bowel disease
+T12	Disease 666 674	diabetes
+T13	Disease 849 864	coeliac disease
+T14	Lifestyle_factor 925 942	disordered eating
+T15	Disease 999 1014	coeliac disease
+T16	Disease 1019 1045	inflammatory bowel disease
+T17	Disease 1090 1098	diabetes
+T18	Disease 1350 1365	coeliac disease
+T19	Lifestyle_factor 1410 1422	binge-eating
+T20	Lifestyle_factor 1488 1505	disordered eating
+T21	Disease 1509 1524	coeliac disease
+T22	Lifestyle_factor 1528 1540	binge eating
+T23	Lifestyle_factor 1583 1600	Disordered eating
+T24	Lifestyle_factor 1738 1750	binge eating
+T25	Disease 1765 1780	coeliac disease
+T27	Disease 1918 1933	coeliac disease
+T28	Lifestyle_factor 2004 2020	gluten-free diet
+T29	Disease 2092 2107	coeliac disease
+T30	Lifestyle_factor 2112 2129	disordered eating
+R2	Out-of-scope Arg1:T21 Arg2:T20	
+R3	Out-of-scope Arg1:T25 Arg2:T24	
+R5	Out-of-scope Arg1:T21 Arg2:T22	
+T31	Lifestyle_factor 105 123	dietary management
+T32	Lifestyle_factor 1300 1318	dietary management
+T26	Disease 1803 1818	coeliac disease
+T38	Disease 1156 1159	BES
+R1	Statistically_associated Arg1:T32 Arg2:T18	

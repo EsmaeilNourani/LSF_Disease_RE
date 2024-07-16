@@ -1,0 +1,60 @@
+{
+    "classification_type": "multi-label",
+    "entities": [
+           "Lifestyle_factor",
+           "Disease"
+    ],
+    "relations": {
+           "Causes": {
+                  "type": "undirectional",
+                  "valid_pairs": [
+                         "Lifestyle_factor Disease", "Disease Lifestyle_factor"
+                  ]
+           },
+           "Controls": {
+                  "type": "undirectional",
+                  "valid_pairs": [
+                         "Lifestyle_factor Disease"
+                  ]
+           },
+           "Prevents": {
+                  "type": "undirectional",
+                  "valid_pairs": [
+                         "Lifestyle_factor Disease"
+                  ]
+           },
+           "Treats": {
+                  "type": "undirectional",
+                  "valid_pairs": [
+                         "Lifestyle_factor Disease"
+                  ]
+           },
+           "Statistically_associated": {
+                  "type": "undirectional",
+                  "valid_pairs": [
+                         "Lifestyle_factor Disease", "Disease Lifestyle_factor"
+                  ]
+           },
+           "positive_statistical_association": {
+                  "type": "undirectional",
+                  "valid_pairs": [
+                         "Lifestyle_factor Disease"
+                  ]
+           },
+           "negative_statistical_association": {
+                  "type": "undirectional",
+                  "valid_pairs": [
+                         "Lifestyle_factor Disease"
+                  ]
+           },
+           "NO_statistical_association": {
+                  "type": "undirectional",
+                  "valid_pairs": [
+                         "Lifestyle_factor Disease", "Disease Lifestyle_factor"
+                  ]
+           }
+    },
+    "evaluation_parameters": {
+           "decimal_points": 4
+    }
+}

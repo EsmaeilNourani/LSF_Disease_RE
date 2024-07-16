@@ -1,0 +1,69 @@
+T1	Lifestyle_factor 32 45	air pollution
+T2	Lifestyle_factor 165 178	air pollution
+T3	Lifestyle_factor 395 408	air pollution
+T4	Lifestyle_factor 667 681	air pollutants
+T5	Lifestyle_factor 851 864	air pollution
+T6	Disease 1234 1258	congenital heart disease
+T7	Disease 1260 1271	polydactyly
+T8	Disease 1277 1288	hypospadias
+T9	Disease 1341 1352	thalassemia
+T10	Disease 1354 1363	cleft lip
+T11	Lifestyle_factor 1439 1453	air pollutants
+T12	Disease 1873 1897	Congenital heart disease
+T13	Disease 1911 1920	cleft lip
+T14	Lifestyle_factor 2276 2289	air pollution
+T15	Disease 1899 1909	polydactyl
+T16	Disease 1928 1934	palate
+T17	Lifestyle_factor 1975 1979	PM10
+T18	Lifestyle_factor 1981 1984	SO2
+T19	Lifestyle_factor 1989 1991	CO
+R1	Statistically_associated Arg1:T17 Arg2:T12	
+R2	Statistically_associated Arg1:T17 Arg2:T15	
+R3	Statistically_associated Arg1:T17 Arg2:T13	
+R4	Statistically_associated Arg1:T17 Arg2:T16	
+R5	Statistically_associated Arg1:T18 Arg2:T12	
+R6	Statistically_associated Arg1:T18 Arg2:T15	
+R7	Statistically_associated Arg1:T18 Arg2:T13	
+R8	Statistically_associated Arg1:T18 Arg2:T16	
+R9	Statistically_associated Arg1:T19 Arg2:T12	
+R10	Statistically_associated Arg1:T19 Arg2:T15	
+R12	Statistically_associated Arg1:T19 Arg2:T13	
+R13	Statistically_associated Arg1:T19 Arg2:T16	
+T20	Disease 238 251	birth defects
+T21	Disease 2320 2323	BDs
+R14	Statistically_associated Arg1:T14 Arg2:T21	
+T22	Disease 253 256	BDs
+T23	Disease 1403 1406	BDs
+R15	positive_statistical_association Arg1:T11 Arg2:T23	
+T24	Lifestyle_factor 1689 1692	SO2
+T25	Disease 1732 1735	BDs
+R16	positive_statistical_association Arg1:T24 Arg2:T25	
+T26	Lifestyle_factor 1454 1458	PM10
+T27	Lifestyle_factor 1554 1556	CO
+R17	positive_statistical_association Arg1:T26 Arg2:T23	
+R18	positive_statistical_association Arg1:T27 Arg2:T23	
+*	Equiv T22 T20
+T28	Disease 353 356	BDs
+T29	Disease 2200 2203	BDs
+T30	Disease 1049 1052	BDs
+T31	Disease 886 889	BDs
+T32	Disease 413 416	BDs
+T34	Disease 608 611	BDs
+T35	Disease 938 941	BDs
+T33	Lifestyle_factor 690 694	PM10
+T36	Lifestyle_factor 683 688	PM2.5
+T37	Lifestyle_factor 696 699	SO2
+T38	Lifestyle_factor 2079 2084	PM2.5
+T39	Lifestyle_factor 701 703	CO
+T40	Lifestyle_factor 705 708	NO2
+T41	Lifestyle_factor 710 712	O3
+T42	Lifestyle_factor 2089 2092	NO2
+T43	Lifestyle_factor 2075 2077	O3
+T44	Disease 50 63	birth defects
+T45	Disease 2057 2070	birth defects
+T46	Disease 1371 1377	palate
+T47	Disease 1383 1393	syndactyls
+R21	NO_statistical_association Arg1:T43 Arg2:T45	
+R22	NO_statistical_association Arg1:T38 Arg2:T45	
+R23	NO_statistical_association Arg1:T42 Arg2:T45	
+T48	Out-of-scope 285 297	inconsistent

@@ -1,0 +1,26 @@
+T2	Disease 64 82	ulcerative colitis
+T3	Disease 146 164	ulcerative colitis
+T5	Disease 203 210	anaemia
+T6	Out-of-scope 233 239	folate
+T7	Out-of-scope 329 335	folate
+T8	Out-of-scope 611 617	folate
+T9	Disease 651 672	megaloblastic anaemia
+T10	Disease 911 918	anaemia
+T12	Disease 1016 1031	coeliac disease
+T13	Out-of-scope 1127 1133	folate
+T15	Disease 43 60	folate deficiency
+T16	Disease 169 186	folate deficiency
+T17	Disease 982 999	folate deficiency
+T18	Disease 1200 1217	folate deficiency
+T1	Out-of-scope 727 741	sulphasalazine
+T4	Out-of-scope 508 522	sulphasalazine
+T11	Out-of-scope 940 954	sulphasalazine
+T14	Out-of-scope 1104 1118	sulphasalazine
+T19	Disease 922 934	macrocytosis
+T20	Disease 676 688	macrocytosis
+T21	Out-of-scope 8 22	sulphasalazine
+T22	Disease 214 226	macrocytosis
+T23	Lifestyle_factor 782 786	drug
+T24	Out-of-scope 240 250	absorption
+T25	Out-of-scope 618 628	absorption
+T26	Out-of-scope 632 645	four patients

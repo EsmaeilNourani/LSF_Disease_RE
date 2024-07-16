@@ -1,0 +1,36 @@
+T1	Disease 32 44	hypertension
+T2	Disease 193 205	hypertension
+T3	Disease 750 762	hypertension
+T4	Disease 814 826	hypertension
+T5	Disease 931 943	hypertension
+T6	Disease 1119 1131	hypertension
+T7	Disease 1376 1388	hypertension
+T8	Lifestyle_factor 1421 1438	educational level
+T9	Lifestyle_factor 1453 1469	household income
+T12	Disease 2070 2082	hypertension
+T13	Lifestyle_factor 2113 2126	working hours
+T15	Lifestyle_factor 2238 2252	dairy products
+T16	Disease 2728 2740	hypertension
+T18	Lifestyle_factor 1440 1447	widower
+R3	positive_statistical_association Arg1:T18 Arg2:T7	
+T19	Lifestyle_factor 1578 1595	physical activity
+R6	positive_statistical_association Arg1:T13 Arg2:T12	
+T20	Lifestyle_factor 2206 2213	smoking
+R8	positive_statistical_association Arg1:T20 Arg2:T12	
+T21	Lifestyle_factor 2221 2233	drinking tea
+T22	Lifestyle_factor 2302 2319	physical activity
+T23	Lifestyle_factor 2857 2869	fresh fruits
+R12	negative_statistical_association Arg1:T23 Arg2:T16	
+T24	Lifestyle_factor 2185 2197	fresh fruits
+R7	negative_statistical_association Arg1:T24 Arg2:T12	
+T30	Lifestyle_factor 1496 1508	fresh fruits
+R4	negative_statistical_association Arg1:T30 Arg2:T7	
+R11	negative_statistical_association Arg1:T8 Arg2:T7	
+R1	negative_statistical_association Arg1:T9 Arg2:T7	
+R2	negative_statistical_association Arg1:T19 Arg2:T7	
+R5	negative_statistical_association Arg1:T21 Arg2:T12	
+R13	negative_statistical_association Arg1:T15 Arg2:T12	
+R9	negative_statistical_association Arg1:T22 Arg2:T12	
+T25	Lifestyle_factor 393 407	economic level
+T26	Lifestyle_factor 1818 1830	fresh fruits
+R10	negative_statistical_association Arg1:T26 Arg2:T7	

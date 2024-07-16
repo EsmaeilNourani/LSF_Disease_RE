@@ -1,0 +1,28 @@
+T1	Disease 22 28	asthma
+T2	Lifestyle_factor 74 90	nitrogen dioxide
+T3	Lifestyle_factor 92 107	carbon monoxide
+T4	Lifestyle_factor 113 131	particulate matter
+T5	Disease 183 189	asthma
+T6	Lifestyle_factor 245 255	fireplaces
+T7	Lifestyle_factor 257 267	woodstoves
+T8	Lifestyle_factor 350 357	cooking
+T9	Disease 470 476	asthma
+T10	Disease 509 515	asthma
+T11	Disease 713 719	asthma
+T13	Lifestyle_factor 896 906	woodstoves
+T14	Lifestyle_factor 269 285	kerosene heaters
+T15	Lifestyle_factor 287 292	flued
+T16	Lifestyle_factor 309 329	nonflued gas heaters
+T17	Lifestyle_factor 335 345	gas stoves
+T18	Lifestyle_factor 798 809	coal stoves
+T19	Lifestyle_factor 0 17	Indoor combustion
+T21	Lifestyle_factor 31 48	Indoor combustion
+T22	Lifestyle_factor 448 465	indoor combustion
+T23	Lifestyle_factor 691 708	indoor combustion
+R1	Statistically_associated Arg1:T18 Arg2:T11	
+R3	Statistically_associated Arg1:T23 Arg2:T11	
+R5	Out-of-scope Arg1:T2 Arg2:T5	
+R6	Out-of-scope Arg1:T3 Arg2:T5	
+R2	Out-of-scope Arg1:T4 Arg2:T5	
+T12	Disease 734 740	asthma
+R4	Statistically_associated Arg1:T23 Arg2:T12	

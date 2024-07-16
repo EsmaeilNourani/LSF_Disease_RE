@@ -1,0 +1,45 @@
+T2	Disease 251 260	neoplasms
+T3	Lifestyle_factor 286 292	sports
+T6	Disease 628 636	impetigo
+T7	Out-of-scope 903 909	sports
+T8	Lifestyle_factor 1219 1225	sports
+T9	Lifestyle_factor 1452 1458	sports
+T10	Disease 1744 1764	seabather's eruption
+T11	Disease 1980 1999	malignant neoplasms
+T12	Out-of-scope 2093 2099	sports
+T13	Disease 2146 2183	melanoma and non-melanoma skin cancer
+T14	Lifestyle_factor 2405 2411	sports
+T22	Lifestyle_factor 2185 2193	Athletes
+T23	Lifestyle_factor 1027 1035	exercise
+T24	Lifestyle_factor 1078 1086	exercise
+T25	Lifestyle_factor 1153 1161	exercise
+T26	Lifestyle_factor 1198 1206	exercise
+T29	Lifestyle_factor 1141 1145	food
+T39	Lifestyle_factor 2037 2053	football players
+T43	Lifestyle_factor 2085 2099	Outdoor sports
+R1	positive_statistical_association Arg1:T43 Arg2:T13	
+T44	Lifestyle_factor 2304 2314	sunscreens
+T46	Disease 334 348	skin disorders
+T47	Disease 2453 2467	skin disorders
+T48	Disease 0 22	Dermatologic disorders
+T1	Disease 580 598	Herpes gladiatorum
+T4	Disease 600 626	tinea corporis gladiatorum
+T5	Disease 642 654	furunculosis
+T52	Out-of-scope 837 856	pharmacotherapeutic
+T53	Disease 1044 1055	anaphylaxis
+T54	Disease 1095 1106	anaphylaxis
+T55	Disease 1291 1307	nail dystrophies
+R7	positive_statistical_association Arg1:T8 Arg2:T55	
+T56	Disease 1726 1740	swimmer's itch
+T59	Lifestyle_factor 2262 2273	ultraviolet
+T17	Lifestyle_factor 2367 2379	sun exposure
+#1	AnnotatorNotes T53	https://icd.who.int/browse10/2019/en#/T78.2
+R2	Causes Arg1:T23 Arg2:T53	
+R3	Causes Arg1:T24 Arg2:T54	
+R4	Causes Arg1:T29 Arg2:T54	
+T16	Disease 132 142	dermatoses
+T18	Disease 433 443	dermatoses
+T19	Disease 2552 2562	dermatoses
+#2	AnnotatorNotes T55	https://icd.who.int/browse10/2019/en#/L60.3
+T15	Lifestyle_factor 1929 1937	athletes
+R5	positive_statistical_association Arg1:T15 Arg2:T11	

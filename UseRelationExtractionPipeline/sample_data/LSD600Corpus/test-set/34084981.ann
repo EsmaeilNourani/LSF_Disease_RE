@@ -1,0 +1,20 @@
+T1	Disease 36 44	Dementia
+T3	Disease 404 412	dementia
+T4	Lifestyle_factor 533 546	air pollution
+T5	Lifestyle_factor 558 571	air pollution
+T6	Lifestyle_factor 573 589	secondhand smoke
+T7	Disease 828 836	dementia
+T9	Disease 985 993	dementia
+T10	Lifestyle_factor 1179 1198	developed countries
+T11	Disease 1444 1452	dementia
+T13	Disease 1655 1663	dementia
+T15	Lifestyle_factor 377 382	PM2.5
+R1	positive_statistical_association Arg1:T15 Arg2:T3	
+T18	Lifestyle_factor 602 609	smoking
+T19	Lifestyle_factor 891 914	ambient PM2.5 pollution
+T20	Lifestyle_factor 1552 1575	ambient PM2.5 pollution
+T21	Lifestyle_factor 132 147	PM2.5 pollution
+R3	Causes Arg1:T20 Arg2:T13	
+T2	Lifestyle_factor 61 66	PM2.5
+R2	Causes Arg1:T19 Arg2:T7	
+T8	Out-of-scope 1583 1594	responsible

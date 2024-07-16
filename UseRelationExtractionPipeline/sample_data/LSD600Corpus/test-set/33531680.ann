@@ -1,0 +1,42 @@
+T1	Lifestyle_factor 24 29	sleep
+T2	Disease 86 93	Obesity
+T3	Lifestyle_factor 185 190	sleep
+T4	Lifestyle_factor 762 767	sleep
+T5	Lifestyle_factor 943 948	sleep
+T6	Lifestyle_factor 957 962	sleep
+T7	Lifestyle_factor 1003 1027	sugar-sweetened beverage
+T8	Lifestyle_factor 1056 1061	sleep
+T9	Lifestyle_factor 1133 1138	sleep
+T10	Lifestyle_factor 1201 1206	sleep
+T11	Lifestyle_factor 1247 1258	screen time
+T12	Lifestyle_factor 1277 1282	sleep
+T13	Lifestyle_factor 1310 1330	surfing the internet
+T14	Lifestyle_factor 1363 1368	sleep
+T15	Lifestyle_factor 1419 1424	sleep
+T16	Disease 1445 1460	central obesity
+T17	Lifestyle_factor 1590 1595	sleep
+T18	Disease 1660 1675	central obesity
+T19	Lifestyle_factor 1697 1702	sleep
+T20	Lifestyle_factor 1803 1808	sleep
+T21	Disease 1878 1893	central obesity
+T22	Lifestyle_factor 1935 1949	sleep duration
+T23	Lifestyle_factor 2011 2025	sleep duration
+T24	Disease 2060 2067	obesity
+T25	Lifestyle_factor 2095 2100	sleep
+T26	Lifestyle_factor 2127 2141	sleep duration
+T27	Disease 2163 2170	obesity
+T28	Lifestyle_factor 2231 2251	developing countries
+T29	Lifestyle_factor 1331 1344	computer time
+T30	Lifestyle_factor 545 550	Sleep
+T31	Lifestyle_factor 1517 1522	Sleep
+T32	Lifestyle_factor 1529 1534	urban
+T33	Lifestyle_factor 2213 2218	urban
+T34	Out-of-scope 692 698	school
+T35	Lifestyle_factor 1736 1742	school
+T36	Lifestyle_factor 1091 1105	healthy snacks
+R1	negative_statistical_association Arg1:T15 Arg2:T16	
+R2	negative_statistical_association Arg1:T17 Arg2:T18	
+R3	negative_statistical_association Arg1:T20 Arg2:T21	
+R4	Prevents Arg1:T26 Arg2:T27	
+T38	Lifestyle_factor 1770 1794	college-educated parents
+T37	Lifestyle_factor 1164 1180	having breakfast

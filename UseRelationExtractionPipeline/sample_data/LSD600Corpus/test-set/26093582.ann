@@ -1,0 +1,32 @@
+T2	Disease 157 166	Diarrhoea
+T3	Lifestyle_factor 234 253	developed countries
+T4	Lifestyle_factor 352 362	sanitation
+T5	Out-of-scope 391 398	hygiene
+T7	Disease 554 563	diarrhoea
+T8	Lifestyle_factor 661 677	residential area
+T9	Disease 1694 1703	diarrhoea
+T10	Lifestyle_factor 1705 1718	Washing hands
+T11	Lifestyle_factor 1809 1822	washing hands
+T12	Disease 2072 2081	diarrhoea
+T14	Disease 2321 2330	diarrhoea
+T16	Disease 2590 2599	diarrhoea
+T19	Lifestyle_factor 746 755	household
+T20	Lifestyle_factor 2225 2242	hygiene practices
+T21	Lifestyle_factor 2547 2564	hygiene practices
+T17	Lifestyle_factor 54 66	food hygiene
+T1	Lifestyle_factor 506 518	food hygiene
+T6	Lifestyle_factor 45 49	hand
+R1	Out-of-scope Arg1:T3 Arg2:T2	
+T18	Lifestyle_factor 322 333	clean water
+T22	Lifestyle_factor 497 501	hand
+R2	negative_statistical_association Arg1:T20 Arg2:T14	
+T23	Lifestyle_factor 1882 1886	soap
+T13	Lifestyle_factor 1478 1490	Being single
+T15	Out-of-scope 1624 1639	self-medication
+T24	Lifestyle_factor 1969 1981	hand washing
+R3	Prevents Arg1:T10 Arg2:T12	
+R4	Prevents Arg1:T23 Arg2:T12	
+R5	Prevents Arg1:T11 Arg2:T12	
+R6	Prevents Arg1:T24 Arg2:T12	
+T25	Lifestyle_factor 2441 2448	schools
+R7	positive_statistical_association Arg1:T13 Arg2:T9	

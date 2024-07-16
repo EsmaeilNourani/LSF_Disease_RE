@@ -1,0 +1,77 @@
+T1	Disease 54 69	prostate cancer
+T2	Lifestyle_factor 261 278	sleep deprivation
+T3	Out-of-scope 280 296	circadian rhythm
+T4	Disease 360 367	cancers
+T5	Disease 386 402	prostate cancers
+T6	Disease 475 490	prostate cancer
+T7	Lifestyle_factor 541 552	rural areas
+T8	Disease 669 676	cancers
+T9	Disease 783 790	obesity
+T10	Lifestyle_factor 800 813	air pollution
+T11	Lifestyle_factor 815 833	particulate matter
+T12	Lifestyle_factor 884 898	urbanized area
+T13	Disease 964 979	prostate cancer
+T14	Disease 1130 1145	prostate cancer
+T15	Disease 1305 1312	cancers
+T16	Disease 1417 1447	central nervous system cancers
+T17	Disease 1460 1468	lymphoma
+T18	Disease 1473 1489	multiple myeloma
+T19	Disease 1548 1563	prostate cancer
+T21	Out-of-scope 313 322	melatonin
+T22	Lifestyle_factor 531 536	urban
+T23	Out-of-scope 81 85	City
+T24	Out-of-scope 522 526	City
+T26	Lifestyle_factor 764 771	smoking
+T27	Lifestyle_factor 773 781	drinking
+T28	Disease 280 307	circadian rhythm disruption
+T29	Lifestyle_factor 24 49	artificial light at night
+T30	Lifestyle_factor 149 174	artificial light at night
+T31	Lifestyle_factor 176 180	ALAN
+T32	Lifestyle_factor 466 470	ALAN
+T33	Lifestyle_factor 632 636	ALAN
+T34	Lifestyle_factor 1014 1018	ALAN
+T35	Lifestyle_factor 1180 1184	ALAN
+T36	Lifestyle_factor 1290 1294	ALAN
+*	Equiv T31 T30
+R1	positive_statistical_association Arg1:T30 Arg2:T28	
+R2	positive_statistical_association Arg1:T30 Arg2:T4	
+R3	positive_statistical_association Arg1:T30 Arg2:T5	
+R4	positive_statistical_association Arg1:T34 Arg2:T13	
+R5	positive_statistical_association Arg1:T35 Arg2:T14	
+T37	Disease 1324 1331	stomach
+T38	Disease 1333 1343	esophageal
+T39	Disease 1345 1350	liver
+T40	Disease 1352 1362	pancreatic
+T41	Disease 1364 1373	laryngeal
+T42	Disease 1375 1379	lung
+T43	Disease 1384 1392	tracheal
+T44	Disease 1394 1401	bladder
+T45	Disease 1407 1412	brain
+R7	NO_statistical_association Arg1:T36 Arg2:T37	
+R8	NO_statistical_association Arg1:T36 Arg2:T38	
+R9	NO_statistical_association Arg1:T36 Arg2:T39	
+R10	NO_statistical_association Arg1:T36 Arg2:T40	
+R11	NO_statistical_association Arg1:T36 Arg2:T41	
+R12	NO_statistical_association Arg1:T36 Arg2:T42	
+R13	NO_statistical_association Arg1:T36 Arg2:T43	
+R14	NO_statistical_association Arg1:T36 Arg2:T44	
+R15	NO_statistical_association Arg1:T36 Arg2:T45	
+R16	NO_statistical_association Arg1:T36 Arg2:T16	
+R17	NO_statistical_association Arg1:T36 Arg2:T17	
+R18	NO_statistical_association Arg1:T36 Arg2:T18	
+T46	Lifestyle_factor 1601 1616	light pollution
+R19	positive_statistical_association Arg1:T46 Arg2:T19	
+T47	Out-of-scope 63 69	cancer
+T48	Out-of-scope 484 490	cancer
+T49	Disease 909 915	cancer
+T50	Out-of-scope 973 979	cancer
+T51	Out-of-scope 1139 1145	cancer
+T52	Out-of-scope 1557 1563	cancer
+T53	Out-of-scope 395 402	cancers
+T20	Disease 376 382	breast
+R20	positive_statistical_association Arg1:T30 Arg2:T20	
+T54	Lifestyle_factor 856 868	urbanization
+T55	Lifestyle_factor 1055 1067	urbanization
+R6	positive_statistical_association Arg1:T55 Arg2:T13	
+T25	Lifestyle_factor 1621 1633	urbanization
+R21	positive_statistical_association Arg1:T25 Arg2:T19	

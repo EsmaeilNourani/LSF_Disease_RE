@@ -1,0 +1,17 @@
+T1	Disease 74 88	Cardiac Arrest
+T2	Lifestyle_factor 118 134	Cosmetic Surgery
+T3	Disease 149 163	Cardiac arrest
+T4	Lifestyle_factor 193 209	cosmetic surgery
+T5	Disease 320 334	cardiac arrest
+T6	Lifestyle_factor 351 367	cosmetic surgery
+T7	Disease 459 473	cardiac arrest
+T8	Lifestyle_factor 503 519	cosmetic surgery
+T9	Disease 1524 1532	ischemia
+T10	Disease 1683 1697	cardiac arrest
+T11	Lifestyle_factor 1714 1730	cosmetic surgery
+T12	Lifestyle_factor 1939 1955	cosmetic surgery
+T13	Out-of-scope 1660 1682	Patients who developed
+R1	Causes Arg1:T11 Arg2:T10	
+R2	Causes Arg1:T6 Arg2:T5	
+R3	Causes Arg1:T2 Arg2:T1	
+R4	Causes Arg1:T8 Arg2:T7	

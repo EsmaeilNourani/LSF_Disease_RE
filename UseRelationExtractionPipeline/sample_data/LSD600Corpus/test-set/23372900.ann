@@ -1,0 +1,29 @@
+T1	Lifestyle_factor 14 24	probiotics
+T2	Disease 42 53	common cold
+T3	Lifestyle_factor 124 134	Probiotics
+T4	Lifestyle_factor 269 279	probiotics
+T5	Disease 283 299	allergic disease
+T6	Disease 301 314	viral disease
+T7	Disease 348 372	gastrointestinal disease
+T8	Lifestyle_factor 443 453	probiotics
+T9	Disease 479 490	common cold
+T10	Lifestyle_factor 849 859	probiotics
+T11	Lifestyle_factor 927 937	probiotics
+T12	Disease 963 974	common cold
+T13	Lifestyle_factor 1098 1108	probiotics
+T14	Lifestyle_factor 1191 1201	probiotics
+T15	Lifestyle_factor 1277 1287	probiotics
+T16	Lifestyle_factor 1439 1449	probiotics
+T17	Disease 1475 1486	common cold
+T18	Lifestyle_factor 1513 1523	probiotics
+T19	Disease 1547 1558	common cold
+T20	Lifestyle_factor 1637 1647	probiotics
+T21	Disease 1652 1663	common cold
+T22	Disease 316 335	respiratory disease
+R5	Controls Arg1:T18 Arg2:T19	
+R6	Prevents Arg1:T16 Arg2:T17	
+R7	Prevents Arg1:T20 Arg2:T21	
+T23	Lifestyle_factor 1321 1328	vitamin
+R1	Prevents Arg1:T11 Arg2:T12	
+R2	negative_statistical_association Arg1:T13 Arg2:T12	
+R3	negative_statistical_association Arg1:T15 Arg2:T12	

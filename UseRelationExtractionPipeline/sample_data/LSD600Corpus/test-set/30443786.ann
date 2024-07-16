@@ -1,0 +1,27 @@
+T1	Lifestyle_factor 42 59	Circadian Rhythms
+T2	Disease 76 97	Learning Disabilities
+T3	Lifestyle_factor 418 435	circadian rhythms
+T4	Lifestyle_factor 545 560	timing of sleep
+T5	Disease 742 761	learning disability
+T6	Disease 763 778	Down's syndrome
+T7	Disease 817 832	Down's syndrome
+T8	Disease 865 884	learning disability
+T9	Lifestyle_factor 1115 1126	sleep phase
+T10	Lifestyle_factor 1134 1146	daily rhythm
+T11	Disease 1863 1882	learning disability
+T12	Lifestyle_factor 2067 2078	sleep phase
+T13	Lifestyle_factor 32 37	Sleep
+T14	Lifestyle_factor 119 124	sleep
+T15	Lifestyle_factor 408 413	sleep
+T16	Lifestyle_factor 365 370	sleep
+T17	Lifestyle_factor 573 578	sleep
+T18	Lifestyle_factor 2160 2165	sleep
+T19	Out-of-scope 957 974	chronic therapies
+T20	Out-of-scope 1064 1085	antagonist treatments
+T21	Out-of-scope 1475 1492	chronic treatment
+T23	Out-of-scope 1681 1696	light treatment
+T24	Out-of-scope 1224 1239	light treatment
+T26	Disease 1343 1363	circadian arrhythmia
+T28	Lifestyle_factor 141 157	circadian system
+T29	Lifestyle_factor 1901 1917	circadian system
+T30	Lifestyle_factor 2010 2026	circadian system

@@ -1,0 +1,40 @@
+T1	Lifestyle_factor 29 40	night shift
+T2	Disease 50 63	breast cancer
+T3	Lifestyle_factor 161 172	night shift
+T4	Disease 197 210	breast cancer
+T5	Disease 371 384	breast cancer
+T6	Lifestyle_factor 391 402	night shift
+T8	Disease 530 543	breast cancer
+T9	Lifestyle_factor 656 661	shift
+T10	Lifestyle_factor 977 989	night shifts
+T11	Disease 1002 1015	breast cancer
+T12	Lifestyle_factor 1070 1081	night shift
+T13	Lifestyle_factor 1166 1204	fewer than three night shifts per week
+T14	Lifestyle_factor 1334 1345	night shift
+T15	Disease 1354 1367	breast cancer
+T16	Lifestyle_factor 1442 1454	night shifts
+T17	Lifestyle_factor 1605 1616	night shift
+T18	Disease 1645 1658	breast cancer
+T19	Lifestyle_factor 1717 1729	night shifts
+T20	Lifestyle_factor 1775 1787	night shifts
+T21	Lifestyle_factor 95 103	military
+R1	Statistically_associated Arg1:T3 Arg2:T4	
+T23	Out-of-scope 130 146	limited evidence
+R2	positive_statistical_association Arg1:T12 Arg2:T11	
+R3	Statistically_associated Arg1:T14 Arg2:T15	
+R4	positive_statistical_association Arg1:T17 Arg2:T18	
+R5	positive_statistical_association Arg1:T19 Arg2:T18	
+T24	Out-of-scope 57 63	cancer
+T25	Out-of-scope 204 210	cancer
+T26	Out-of-scope 378 384	cancer
+T27	Out-of-scope 537 543	cancer
+T28	Out-of-scope 1009 1015	cancer
+T29	Out-of-scope 1361 1367	cancer
+T30	Out-of-scope 1652 1658	cancer
+T31	Lifestyle_factor 435 460	leisure time sun exposure
+T32	Lifestyle_factor 668 680	sun exposure
+T33	Lifestyle_factor 1484 1495	Night shift
+T34	Lifestyle_factor 1514 1522	sunbathe
+#1	AnnotatorNotes T12	# TODO: check
+R6	NO_statistical_association Arg1:T13 Arg2:T11	
+R7	positive_statistical_association Arg1:T16 Arg2:T15	

@@ -1,0 +1,22 @@
+T1	Disease 88 103	atherosclerosis
+T2	Disease 203 218	atherosclerosis
+T3	Lifestyle_factor 297 327	leisure-time physical activity
+T4	Lifestyle_factor 329 333	LTPA
+T5	Disease 358 373	atherosclerosis
+T6	Disease 734 749	atherosclerosis
+T7	Disease 883 898	atherosclerosis
+T8	Lifestyle_factor 1240 1260	white collar workers
+T10	Lifestyle_factor 1283 1287	LTPA
+T11	Lifestyle_factor 1343 1347	LTPA
+T12	Lifestyle_factor 1579 1583	LTPA
+T13	Lifestyle_factor 1887 1891	LTPA
+T14	Disease 1928 1943	atherosclerosis
+R1	Prevents Arg1:T13 Arg2:T14	
+T15	Lifestyle_factor 19 36	physical activity
+T16	Lifestyle_factor 164 181	physical activity
+*	Equiv T3 T4
+R2	Statistically_associated Arg1:T15 Arg2:T1	
+T17	Lifestyle_factor 773 775	PA
+T18	Lifestyle_factor 1391 1406	recreational PA
+T19	Lifestyle_factor 1756 1758	PA
+T20	Lifestyle_factor 1520 1522	PA

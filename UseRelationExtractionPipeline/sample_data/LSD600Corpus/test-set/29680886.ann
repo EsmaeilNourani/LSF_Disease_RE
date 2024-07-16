@@ -1,0 +1,19 @@
+T1	Lifestyle_factor 0 10	Phthalates
+T3	Lifestyle_factor 52 62	Phthalates
+T4	Lifestyle_factor 105 117	plasticizers
+T5	Lifestyle_factor 264 274	phthalates
+T7	Disease 483 507	type 1 diabetes mellitus
+T8	Lifestyle_factor 578 588	phthalates
+T9	Disease 769 777	diabetes
+T10	Disease 971 979	diabetes
+T11	Disease 981 989	diabetes
+T12	Disease 1104 1112	diabetes
+T13	Disease 1212 1220	diabetes
+T14	Disease 297 319	metabolic dysfunctions
+R1	positive_statistical_association Arg1:T5 Arg2:T14	
+T15	Disease 15 30	type 1 diabetes
+T16	Disease 509 513	T1DM
+*	Equiv T16 T7
+T17	Disease 793 797	T1DM
+T18	Disease 610 614	T1DM
+T19	Out-of-scope 665 674	phthalate

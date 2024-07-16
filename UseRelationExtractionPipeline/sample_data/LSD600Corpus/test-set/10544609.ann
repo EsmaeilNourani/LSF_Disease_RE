@@ -1,0 +1,23 @@
+T2	Disease 276 298	coronary heart disease
+T3	Disease 303 324	myocardial infarction
+T4	Disease 387 414	hypertrophic cardiomyopathy
+T5	Lifestyle_factor 985 991	sports
+T6	Lifestyle_factor 1049 1055	sports
+T7	Disease 1180 1202	coronary heart disease
+T8	Disease 1302 1324	coronary heart disease
+T9	Disease 1337 1348	myocarditis
+T10	Disease 1368 1395	hypertrophic cardiomyopathy
+T11	Lifestyle_factor 1424 1430	sports
+T12	Lifestyle_factor 1463 1470	jogging
+T13	Lifestyle_factor 1506 1512	skiing
+T14	Lifestyle_factor 1536 1542	sports
+T15	Lifestyle_factor 1569 1582	aerial sports
+T16	Disease 1669 1679	thrombosis
+T17	Disease 1737 1755	pulmonary embolism
+T19	Disease 1981 2008	hypertrophic cardiomyopathy
+T28	Lifestyle_factor 1490 1497	cycling
+T29	Lifestyle_factor 1477 1484	walking
+T30	Lifestyle_factor 1589 1601	ball players
+T31	Lifestyle_factor 1639 1652	motor cyclist
+T18	Lifestyle_factor 1790 1811	cardiovascular sports
+T1	Lifestyle_factor 213 219	sports

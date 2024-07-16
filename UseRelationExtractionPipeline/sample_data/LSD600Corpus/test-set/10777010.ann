@@ -1,0 +1,37 @@
+T1	Lifestyle_factor 9 16	tobacco
+T2	Disease 56 73	pancreatic cancer
+T3	Lifestyle_factor 243 250	tobacco
+T4	Disease 278 295	pancreatic cancer
+T5	Disease 471 488	pancreatic cancer
+T6	Lifestyle_factor 609 618	cigarette
+T7	Disease 666 683	pancreatic cancer
+T8	Out-of-scope 779 788	cigarette
+T9	Lifestyle_factor 794 810	years of smoking
+T10	Lifestyle_factor 923 927	beer
+T11	Disease 952 969	pancreatic cancer
+T12	Disease 1006 1023	pancreatic cancer
+T13	Lifestyle_factor 696 709	never smokers
+T14	Out-of-scope 702 709	smokers
+R1	positive_statistical_association Arg1:T6 Arg2:T7
+R4	positive_statistical_association Arg1:T9 Arg2:T7
+T15	Lifestyle_factor 897 904	alcohol
+T16	Lifestyle_factor 906 910	wine
+T17	Lifestyle_factor 912 918	liquor
+R10	NO_statistical_association Arg1:T15 Arg2:T11	
+R5	NO_statistical_association Arg1:T16 Arg2:T11	
+R6	NO_statistical_association Arg1:T17 Arg2:T11	
+R7	NO_statistical_association Arg1:T10 Arg2:T11	
+T18	Lifestyle_factor 971 986	Coffee drinking
+R8	NO_statistical_association Arg1:T18 Arg2:T12
+T19	Out-of-scope 803 810	smoking
+T21	Out-of-scope 67 73	cancer
+T22	Out-of-scope 161 167	Cancer
+T23	Out-of-scope 289 295	cancer
+T24	Out-of-scope 482 488	cancer
+T25	Out-of-scope 677 683	cancer
+T26	Out-of-scope 963 969	cancer
+T27	Out-of-scope 1017 1023	cancer
+T28	Lifestyle_factor 0 7	Alcohol
+T29	Lifestyle_factor 234 241	alcohol
+T30	Lifestyle_factor 21 27	coffee
+T31	Lifestyle_factor 255 261	coffee
