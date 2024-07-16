@@ -20,6 +20,30 @@ conda activate RE
 pip install -r requirements.txt
 ```
 
+## Considerations about using C2 Supercomputer
+* You may consider loading the existing modules on C2 for Tensorflow and Pytorch instead of installing them
+```
+module purge
+module load tools computerome_utils/2.0
+module load anaconda3/2022.10
+module load pytorch/1.12.1
+module load tensorflow/2.9.1
+```
+
+* Still you need to install the following libraries
+```
+#run the next 4 commands only once, then you have them in your user.
+python -m pip install --user spacy==2.3.2
+python -m pip install --user scispacy==0.2.5
+python -m pip install --user https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_core_sci_sm-0.2.5.tar.gz
+python -m pip install --user transformers==4.20.1
+```
+
+
+
+
+
+
 # Code for training relation extraction models
 For this code, you will need to do the following steps, and code needs to run on a GPU-cluster with a slurm system.
 
@@ -84,25 +108,6 @@ This is important that you first edit `train_single_re_model.sh` file, at least 
 
 Once the gpu-jobs are submitted and completed, you can check the `OUTPUTS` folder and by checking the .log files, see which model has yielded the highest f-score,
 and take that model for subsequent use.
-
-## Considerations about using C2
-* You may consider loading the existing modules on C2 for Tensorflow and Pytorch instead of installing them
-```
-module purge
-module load tools computerome_utils/2.0
-module load anaconda3/2022.10
-module load pytorch/1.12.1
-module load tensorflow/2.9.1
-```
-
-* Still you need to install the following libraries
-```
-#run the next 4 commands only once, then you have them in your user.
-python -m pip install --user spacy==2.3.2
-python -m pip install --user scispacy==0.2.5
-python -m pip install --user https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_core_sci_sm-0.2.5.tar.gz
-python -m pip install --user transformers==4.20.1
-```
 
 
 
@@ -194,23 +199,5 @@ Then you have to edit `run_system_predict_sample_data.sh` script and add necessa
 You can check the structure of files inside the sample_data folder to get a better understanding of how files should be provided to the system as input. 
 Finally, you can follow the same instructions given for running the system on sample data to run the system on your own files.
 
-## Considerations about using C2
-* You may consider loading the existing modules on C2 for Tensorflow and Pytorch instead of installing them
-```
-module purge
-module load tools computerome_utils/2.0
-module load anaconda3/2022.10
-module load pytorch/1.12.1
-module load tensorflow/2.9.1
-```
-
-* Still you need to install the following libraries
-```
-#run the next 4 commands only once, then you have them in your user.
-python -m pip install --user spacy==2.3.2
-python -m pip install --user scispacy==0.2.5
-python -m pip install --user https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_core_sci_sm-0.2.5.tar.gz
-python -m pip install --user transformers==4.20.1
-```
 
 
