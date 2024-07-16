@@ -40,5 +40,6 @@ python run_ls_pipeline.py \
     --log_file_path "${DIR}/logs/test_data.log" \
     --model_folder_path "${DIR}/model" \
     --input_folder_path "${DIR}/sample_data/LSD600Corpus/test-set" \
-    --output_folder_path "${DIR}/outputs/sample_data/LSD600Corpus/test-set"
+    --output_folder_path "${DIR}/outputs/sample_data/LSD600Corpus/test-set" \
+    --create_output_ann_files "True"
 
