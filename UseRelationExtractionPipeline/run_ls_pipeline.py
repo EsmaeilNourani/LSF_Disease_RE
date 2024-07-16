@@ -15,7 +15,7 @@ if __name__=="__main__":
     parser.add_argument("--model_folder_path" , required=True, type=str)
     parser.add_argument("--input_folder_path" , required=True, type=str)
     parser.add_argument("--output_folder_path" , required=True, type=str)
-    parser.add_argument("--create_output_ann_files" , type=bool, default=False)
+    parser.add_argument("--create_output_ann_files" , type=bool, default=True)
     parser.add_argument("--dont_generate_negatives_if_sentence_distance_ge" , type=int , default=7)
     args = parser.parse_args()
 
