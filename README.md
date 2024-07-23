@@ -11,7 +11,7 @@ There are two main folders:
 
 
 
-### Environment setup:
+## Environment setup:
 This code is tested with Python 3.9 installed with conda and the packages from requirements.txt installed in that environment. 
 
 ```
@@ -44,10 +44,10 @@ python -m pip install --user transformers==4.20.1
 
 
 
-# Code for training relation extraction models
+## Code for training relation extraction models
 For this code, you will need to do the following steps, and code needs to run on a GPU-cluster with a slurm system.
 
-## Preparing the system
+### Preparing the system
 In the first step, you need to clone the repository to your cluster drive space.
 Assume you copy to your home directory `$HOME`
 
@@ -93,7 +93,7 @@ If everything goes right, then the model should be here:
 
 If not, make sure to download the model manually and place it correctly into that folder.
 
-## Steps to train/finetune the model on the C2 supercomputer
+#### Steps to train/finetune the model on the C2 supercomputer
 
 Navigate to the directory where the code for relation extraction resides. In this case: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem`.
 
@@ -112,7 +112,7 @@ and take that model for subsequent use.
 
 
 
-# Code for running prediction with the best model
+## Code for running prediction with the best model
 This contains all the scripts to run the relation extraction pipeline on the test data or any documents of your choice. 
 
 **IMPORTANT:** Please note that the pipeline is only capable of extracting relations between different entities that are **aleady detected** in the texts with an NER system. 
@@ -178,7 +178,7 @@ You must first do a git clone:
 4. Finally, you can proceed with running the pipeline on sample_data, or entire literature data, or any documents of your choice. 
 
 
-## 1. Prediction on test data
+### Prediction on test data
 In order to run the relation extraction system on [test data](https://github.com/EsmaeilNourani/LSF_Disease_RE/tree/main/UseRelationExtractionPipeline//sample_data/LSD600Corpus/test-set), you need to first edit `run_system_predict_sample_data.sh` script and add necessary information (e.g your account information on the cluster, etc), 
 and then run it with the following command on your cluster gpu machine:
 ```
@@ -192,7 +192,7 @@ Once the execution is complete, you can check `outputs`, `logs`, and `cluster_lo
 ###Important note: 
 Please note that this script is based on the qsub command and the PBS system. If you are plannig to run it on a different cluster system, you have to edit the files based on your own cluster environment commands.
 
-## 2. Run the system on your own files
+### Run the system on your own files
 For this, you will need to first run an NER system to detect entities and provide the output in BRAT format.
 Then distribute your BRAT files (.ann and .txt) into input folder.
 Then you have to edit `run_system_predict_sample_data.sh` script and add necessary information (e.g your account information on the cluster, etc) folder. 
