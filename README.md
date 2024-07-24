@@ -64,7 +64,7 @@ cd LSF_Disease_RE/TrainRelationExtractionSystem
 sh get_data.sh
 ```
 
-This will download the data from [Zenodo](https://zenodo.org/records/12684263/files/LSD600.tar.gz) and extract it into the following directories:
+This will download the data from [Zenodo](https://zenodo.org/records/12804856/files/LSD600.tar.gz) and extract it into the following directories:
 
 
 - train_folder: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem/LSD600Corpus/train-set`
@@ -153,7 +153,7 @@ You must first do a git clone:
 
 3. Then you have two alternative options to proceed (choose only one): 
     - 3.1: Use the relation extraction model we have already trained:
-    To do so, please execute the following script which downloads the model from [Zenodo](https://zenodo.org/records/12684263/files/best-model-LSF-undir-RoBERTa-5e-6-180-75.tar.gz?download=1), 
+    To do so, please execute the following script which downloads the model from [Zenodo](https://zenodo.org/records/12804856/files/best-model-LSF-undir-RoBERTa-5e-6-180-75.tar.gz?download=1), 
     and extracts it into the `model` folder. 
     
        ```

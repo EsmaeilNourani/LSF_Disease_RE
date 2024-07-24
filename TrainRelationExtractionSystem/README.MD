@@ -18,7 +18,7 @@ cd LSF_Disease_RE/TrainRelationExtractionSystem
 sh get_data.sh
 ```
 
-This will download the data from [Zenodo](https://zenodo.org/records/12684263/files/LSD600.tar.gz) and extract it into the following directories:
+This will download the data from [Zenodo](https://zenodo.org/records/12804856/files/LSD600.tar.gz) and extract it into the following directories:
 
 
 - train_folder: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem/LSD600Corpus/train-set`
