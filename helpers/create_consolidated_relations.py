@@ -62,7 +62,7 @@ def extract_relation_data_from_ann_file(ann_file_path, txt_file_path, category):
         if not arg1 or not arg2:
             continue
         
-        # Check if either argument is a Disease and the other is a Lifestyle_factor
+        # Check if either argument is a disease and the other is a lifestyle_factor
         if (arg1['type'] == 'disease' and arg2['type'] == 'lifestyle_factor') or \
            (arg1['type'] == 'lifestyle_factor' and arg2['type'] == 'disease'):
             

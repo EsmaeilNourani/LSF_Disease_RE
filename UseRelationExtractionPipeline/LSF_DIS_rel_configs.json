@@ -1,56 +1,56 @@
 {
     "classification_type": "multi-label",
     "entities": [
-           "Lifestyle_factor",
-           "Disease"
+           "lifestyle_factor",
+           "disease"
     ],
     "relations": {
-           "Causes": {
+           "causes": {
                   "type": "undirectional",
                   "valid_pairs": [
-                         "Lifestyle_factor Disease", "Disease Lifestyle_factor"
+                         "lifestyle_factor disease", "disease lifestyle_factor"
                   ]
            },
-           "Controls": {
+           "controls": {
                   "type": "undirectional",
                   "valid_pairs": [
-                         "Lifestyle_factor Disease"
+                         "lifestyle_factor disease"
                   ]
            },
-           "Prevents": {
+           "prevents": {
                   "type": "undirectional",
                   "valid_pairs": [
-                         "Lifestyle_factor Disease"
+                         "lifestyle_factor disease"
                   ]
            },
-           "Treats": {
+           "treats": {
                   "type": "undirectional",
                   "valid_pairs": [
-                         "Lifestyle_factor Disease"
+                         "lifestyle_factor disease"
                   ]
            },
-           "Statistically_associated": {
+           "statistical_association": {
                   "type": "undirectional",
                   "valid_pairs": [
-                         "Lifestyle_factor Disease", "Disease Lifestyle_factor"
+                         "lifestyle_factor disease", "disease lifestyle_factor"
                   ]
            },
            "positive_statistical_association": {
                   "type": "undirectional",
                   "valid_pairs": [
-                         "Lifestyle_factor Disease"
+                         "lifestyle_factor disease"
                   ]
            },
            "negative_statistical_association": {
                   "type": "undirectional",
                   "valid_pairs": [
-                         "Lifestyle_factor Disease"
+                         "lifestyle_factor disease"
                   ]
            },
-           "NO_statistical_association": {
+           "no_statistical_association": {
                   "type": "undirectional",
                   "valid_pairs": [
-                         "Lifestyle_factor Disease", "Disease Lifestyle_factor"
+                         "lifestyle_factor disease", "disease lifestyle_factor"
                   ]
            }
     },

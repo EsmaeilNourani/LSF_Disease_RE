@@ -11,7 +11,7 @@ def external_eval_all_entities(pred_folder, program_halt):
     devel_gold_folder = execution_folder + "LSD600Corpus/devel-set/" #space is really important at the end
 
     #<<<CRITICAL>>>: we should use the same command for all experiments
-    command = "python3 evalsorel.py --entities Lifestyle_factor,Disease --relations Causes,Controls,Prevents,Treats,Statistically_associated,positive_statistical_association,negative_statistical_association,NO_statistical_association " \
+    command = "python3 evalsorel.py --entities lifestyle_factor,disease --relations causes,controls,prevents,treats,statistical_association,positive_statistical_association,negative_statistical_association,no_statistical_association " \
               + devel_gold_folder + " " + pred_folder
 
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd, shell=True)
