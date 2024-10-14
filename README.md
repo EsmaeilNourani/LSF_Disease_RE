@@ -201,3 +201,17 @@ Finally, you can follow the same instructions given for running the system on sa
 
 
 
+### Code to Generate Metadata and Consolidated Relations Dataset for the LSD600 Corpus
+
+1. **Generate LSD600 Metadata**  
+   Navigate to the helpers directory and run the script to generate the LSD600 metadata:
+   ```bash
+   cd helpers  
+   python create_metadata.py ../TrainRelationExtractionSystem/LSD600Corpus LSD600_metadata.tsv
+
+
+2. **Generate Consolidated Relations Dataset**  
+    Navigate to the helpers directory and run the script to generate the consolidated relations dataset:
+    ```bash
+    cd helpers  
+    python create_consolidated_relations.py ../TrainRelationExtractionSystem/LSD600Corpus Consolidated_Relations_Dataset.tsv
