@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import sys
 
-def extract_relation_data_from_ann_file(ann_file_path, txt_file_path, category):
+def extract_relation_data_from_ann_file(ann_file_path, txt_file_path, Data_Set):
     relations_data = []
     
     # Read the .ann file
@@ -72,7 +72,7 @@ def extract_relation_data_from_ann_file(ann_file_path, txt_file_path, category):
                 'LSF_Entity': arg2['text'] if arg1['type'] == 'disease' else arg1['text'],
                 'Relationship_Type': relation['relation_type'],
                 'Publication_ID': os.path.basename(ann_file_path).replace('.ann', ''),
-                'Category': category,
+                'Data_Set': Data_Set,
                 'Disease_BRAT_ID': relation['arg1'] if arg1['type'] == 'disease' else relation['arg2'],
                 'LSF_BRAT_ID': relation['arg2'] if arg1['type'] == 'disease' else relation['arg1'],
                 'Disease_Entity_Span': f"{arg1['start_idx']}:{arg1['end_idx']}" if arg1['type'] == 'disease' else f"{arg2['start_idx']}:{arg2['end_idx']}",
