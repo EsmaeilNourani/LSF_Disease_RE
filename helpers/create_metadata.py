@@ -62,8 +62,10 @@ def count_relations_and_entities(corpus_folder):
     return results
 
 def fetch_pubmed_info(pmid):
-    Entrez.email = 'esmaeil.nourani@gmail.com'
-    Entrez.api_key='92520137b872c6c0a9f8b64d214e68bf1f08'  # Personal API key
+    
+    Entrez.email = 'your_email@example.com'
+    Entrez.api_key = 'your_api_key_here'  # Personal API key
+
 
     try:
         handle = Entrez.esummary(db="pubmed", id=pmid, retmode="xml")
