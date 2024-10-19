@@ -1,6 +1,6 @@
 #!/bin/bash
 # Step 1: Download the archive
-wget 'https://zenodo.org/records/12804856/files/LSD600.tar.gz' -O data.tar.gz
+wget 'https://zenodo.org/records/13952449/files/LSD600.tar.gz' -O data.tar.gz
 
 # Step 2: Extract the contents of the archive
 tar -xvf data.tar.gz

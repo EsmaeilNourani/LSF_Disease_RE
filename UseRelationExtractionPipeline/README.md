@@ -39,7 +39,7 @@ You must first do a git clone:
 
 3. Then you have two alternative options to proceed (choose only one): 
     - 3.1: Use the relation extraction model we have already trained:
-    To do so, please execute the following script which downloads the model from [Zenodo](https://zenodo.org/records/12804856/files/best-model-LSF-undir-RoBERTa-5e-6-180-75.tar.gz?download=1), 
+    To do so, please execute the following script which downloads the model from [Zenodo](https://zenodo.org/records/13952449/files/best-model-LSF-undir-RoBERTa-5e-6-180-75.tar.gz?download=1), 
     and extracts it into the `model` folder. 
     
        ```

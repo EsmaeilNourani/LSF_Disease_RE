@@ -64,7 +64,7 @@ cd LSF_Disease_RE/TrainRelationExtractionSystem
 sh get_data.sh
 ```
 
-This will download the data from [Zenodo](https://zenodo.org/records/12804856/files/LSD600.tar.gz) and extract it into the following directories:
+This will download the data from [Zenodo](https://zenodo.org/records/13952449/files/LSD600.tar.gz) and extract it into the following directories:
 
 
 - train_folder: `$HOME/LSF_Disease_RE/TrainRelationExtractionSystem/LSD600Corpus/train-set`
@@ -153,7 +153,7 @@ You must first do a git clone:
 
 3. Then you have two alternative options to proceed (choose only one): 
     - 3.1: Use the relation extraction model we have already trained:
-    To do so, please execute the following script which downloads the model from [Zenodo](https://zenodo.org/records/12804856/files/best-model-LSF-undir-RoBERTa-5e-6-180-75.tar.gz?download=1), 
+    To do so, please execute the following script which downloads the model from [Zenodo](https://zenodo.org/records/13952449/files/best-model-LSF-undir-RoBERTa-5e-6-180-75.tar.gz?download=1), 
     and extracts it into the `model` folder. 
     
        ```
@@ -200,6 +200,9 @@ You can check the structure of files inside the sample_data folder to get a bett
 Finally, you can follow the same instructions given for running the system on sample data to run the system on your own files.
 
 
+# LSD600 Corpus
+
+You can access the corpus files on the [Zenodo page](https://zenodo.org/records/13952449/files/LSD600.tar.gz?download=1).
 
 ### Code to Generate Metadata and Consolidated Relations Dataset for the LSD600 Corpus
 
@@ -208,10 +211,13 @@ Finally, you can follow the same instructions given for running the system on sa
    ```bash
    cd helpers  
    python create_metadata.py ../TrainRelationExtractionSystem/LSD600Corpus LSD600_metadata.tsv
-
+  
+  * You can access LSD600_metadata.tsv on the [Zenodo page](https://zenodo.org/records/13952449/files/LSD600_metadata.tsv?download=1)
 
 2. **Generate Consolidated Relations Dataset**  
     Navigate to the helpers directory and run the script to generate the consolidated relations dataset:
     ```bash
     cd helpers  
     python create_consolidated_relations.py ../TrainRelationExtractionSystem/LSD600Corpus Consolidated_Relations_Dataset.tsv
+  
+  * You can access Consolidated_Relations_Dataset.tsv on the [Zenodo page](https://zenodo.org/records/13952449/files/Consolidated_Relations_Dataset.tsv?download=1https://zenodo.org/records/13952449/files/Consolidated_Relations_Dataset.tsv?download=1)
